@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="MFSKdemod_8h" kind="file" language="C++">
+    <compoundname>MFSKdemod.h</compoundname>
+    <includes refid="api_8h" local="no">MFSK_demod/api.h</includes>
+    <includes local="no">gnuradio/sync_decimator.h</includes>
+    <includedby refid="MFSKdemod__impl_8h" local="no">MFSKdemod_impl.h</includedby>
+    <incdepgraph>
+      <node id="39">
+        <label>gnuradio/sync_decimator.h</label>
+      </node>
+      <node id="38">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="36">
+        <label>MFSKdemod.h</label>
+        <link refid="MFSKdemod.h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MFSK_demod/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="41">
+        <label>MFSKdemod_impl.h</label>
+        <link refid="MFSKdemod__impl_8h"/>
+      </node>
+      <node id="40">
+        <label>MFSKdemod.h</label>
+        <link refid="MFSKdemod.h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1MFSK__demod_1_1MFSKdemod" prot="public">gr::MFSK_demod::MFSKdemod</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1MFSK__demod">gr::MFSK_demod</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/include/MFSK_demod/MFSKdemod.h"/>
+  </compounddef>
+</doxygen>

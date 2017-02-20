@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<block>
+  <name>MFSK_demod2</name>
+  <key>MFSK_demod_MFSK_demod2</key>
+  <category>MFSK_demod</category>
+  <import>import MFSK_demod</import>
+  <make>MFSK_demod.MFSK_demod2($k, $m, $samples_per_symbol)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+   Sub-nodes:
+   * name
+   * key (makes the value accessible as $keyname, e.g. in the make node)
+   * type -->
+  <param>
+      <name>Modulation_index</name>
+      <key>k</key>
+      <type>real</type>
+  </param>
+  
+  <param>
+      <name>M-value</name>
+      <key>m</key>
+      <type>int</type>
+  </param>
+  
+  <param>
+      <name>Samples/Symbol</name>
+      <key>samples_per_symbol</key>
+      <type>int</type>
+  </param>
+  
+  <!-- Make one 'sink' node per input. Sub-nodes:
+   * name (an identifier for the GUI)
+   * type
+   * vlen
+   * optional (set to 1 for optional inputs) -->
+  <sink>
+      <name>in</name>
+      <type>complex</type>
+  </sink>
+  
+  <!-- Make one 'source' node per output. Sub-nodes:
+   * name (an identifier for the GUI)
+   * type
+   * vlen
+   * optional (set to 1 for optional inputs) -->
+  <source>
+      <name>out</name>
+      <type>byte</type>
+  </source>
+</block>

@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="MFSKdemod__impl_8h" kind="file" language="C++">
+    <compoundname>MFSKdemod_impl.h</compoundname>
+    <includes refid="MFSKdemod_8h" local="no">MFSK_demod/MFSKdemod.h</includes>
+    <includes local="no">cmath</includes>
+    <includes local="no">complex</includes>
+    <includes local="no">boost/dynamic_bitset.hpp</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="46">
+        <label>gnuradio/sync_decimator.h</label>
+      </node>
+      <node id="49">
+        <label>boost/dynamic_bitset.hpp</label>
+      </node>
+      <node id="47">
+        <label>cmath</label>
+      </node>
+      <node id="51">
+        <label>string</label>
+      </node>
+      <node id="45">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="42">
+        <label>MFSKdemod_impl.h</label>
+        <link refid="MFSKdemod_impl.h"/>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>vector</label>
+      </node>
+      <node id="43">
+        <label>MFSK_demod/MFSKdemod.h</label>
+        <link refid="MFSKdemod_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>complex</label>
+      </node>
+      <node id="44">
+        <label>MFSK_demod/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl" prot="public">gr::MFSK_demod::MFSKdemod_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1MFSK__demod">gr::MFSK_demod</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSKdemod_impl.h"/>
+  </compounddef>
+</doxygen>

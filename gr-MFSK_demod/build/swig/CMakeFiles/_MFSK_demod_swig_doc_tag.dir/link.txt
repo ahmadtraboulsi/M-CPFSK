@@ -1,0 +1,1 @@
+/usr/bin/llvm-g++   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/_MFSK_demod_swig_doc_tag.dir/_MFSK_demod_swig_doc_tag.cpp.o  -o _MFSK_demod_swig_doc_tag  -L/opt/local/lib  -Wl,-rpath,/usr/local/lib 

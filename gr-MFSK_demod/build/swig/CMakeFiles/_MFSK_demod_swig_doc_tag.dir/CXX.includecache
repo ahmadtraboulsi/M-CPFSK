@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/swig/_MFSK_demod_swig_doc_tag.cpp
+
