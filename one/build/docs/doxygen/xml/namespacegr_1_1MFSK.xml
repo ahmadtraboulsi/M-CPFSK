@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="namespacegr_1_1MFSK" kind="namespace" language="C++">
+    <compoundname>gr::MFSK</compoundname>
+    <innerclass refid="classgr_1_1MFSK_1_1MFSK" prot="public">gr::MFSK::MFSK</innerclass>
+    <innerclass refid="classgr_1_1MFSK_1_1MFSK__impl" prot="public">gr::MFSK::MFSK_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/include/MFSK/MFSK.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

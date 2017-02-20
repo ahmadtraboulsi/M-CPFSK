@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classgr_1_1MFSK_1_1MFSK__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::MFSK::MFSK_impl</compoundname>
+    <basecompoundref refid="classgr_1_1MFSK_1_1MFSK" prot="public" virt="non-virtual">gr::MFSK::MFSK</basecompoundref>
+    <includes refid="MFSK__impl_8h" local="no">MFSK_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1MFSK_1_1MFSK__impl_1aa29deabf773451e125445830b051de85" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::MFSK::MFSK_impl::d_samples_per_sym</definition>
+        <argsstring></argsstring>
+        <name>d_samples_per_sym</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="33" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK_1_1MFSK__impl_1ab0f57de059b87bcd959c93d948b990c7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::MFSK::MFSK_impl::d_freq</definition>
+        <argsstring></argsstring>
+        <name>d_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="34" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK_1_1MFSK__impl_1a848d16064c0f57b2a325e7ddb551adf8" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::MFSK::MFSK_impl::d_ampl</definition>
+        <argsstring></argsstring>
+        <name>d_ampl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="35" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK_1_1MFSK__impl_1ab8a153e7ba8cbba76bcec0b0b2bf1f30" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::MFSK::MFSK_impl::d_phase</definition>
+        <argsstring></argsstring>
+        <name>d_phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="36" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK_1_1MFSK__impl_1a05e6d7210c5a2744ddff459c635ebada" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::MFSK::MFSK_impl::d_m</definition>
+        <argsstring></argsstring>
+        <name>d_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="37" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1MFSK_1_1MFSK__impl_1a2659f8d558406d8a8f539f8ce29487e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::MFSK::MFSK_impl::MFSK_impl</definition>
+        <argsstring>(float k, float ampl, int m, int samples_per_symbol)</argsstring>
+        <name>MFSK_impl</name>
+        <param>
+          <type>float</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ampl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samples_per_symbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK_1_1MFSK__impl_1ae3962ac806f4d13f68933937662efe12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::MFSK::MFSK_impl::~MFSK_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~MFSK_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK_1_1MFSK__impl_1a092fff854706634644579e47f9ec486e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::MFSK::MFSK_impl::set_amplitude</definition>
+        <argsstring>(float amplitude)</argsstring>
+        <name>set_amplitude</name>
+        <param>
+          <type>float</type>
+          <declname>amplitude</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="44" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="44" bodyend="44"/>
+        <references refid="classgr_1_1MFSK_1_1MFSK__impl_1a039372a295dced69ca9b035a24628e76" compoundref="MFSK__impl_8h" startline="45" endline="45">amplitude</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK_1_1MFSK__impl_1a039372a295dced69ca9b035a24628e76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::MFSK::MFSK_impl::amplitude</definition>
+        <argsstring>()</argsstring>
+        <name>amplitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="45" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="45" bodyend="45"/>
+        <referencedby refid="classgr_1_1MFSK_1_1MFSK__impl_1a092fff854706634644579e47f9ec486e" compoundref="MFSK__impl_8h" startline="44" endline="44">set_amplitude</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK_1_1MFSK__impl_1ae891b28414ec13d60db11da9ec9d9d1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::MFSK::MFSK_impl::freq</definition>
+        <argsstring>()</argsstring>
+        <name>freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="46" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK_1_1MFSK__impl_1ac34f855f3771a47135a3b5eb4972fef5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::MFSK::MFSK_impl::phase</definition>
+        <argsstring>()</argsstring>
+        <name>phase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="47" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK_1_1MFSK__impl_1a18d2f95d244a545edbda09b26a8e923c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::MFSK::MFSK_impl::m</definition>
+        <argsstring>()</argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="48" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK_1_1MFSK__impl_1ae9f42857ef30697b255dbcf680b20376" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::MFSK::MFSK_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK_1_1MFSK__impl_1ac4773bee22189ba1f044bdeed892e0dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::MFSK::MFSK_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>gr::block</label>
+      </node>
+      <node id="11">
+        <label>gr::MFSK::MFSK_impl</label>
+        <link refid="classgr_1_1MFSK_1_1MFSK__impl"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gr::MFSK::MFSK</label>
+        <link refid="classgr_1_1MFSK_1_1MFSK"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>gr::block</label>
+      </node>
+      <node id="14">
+        <label>gr::MFSK::MFSK_impl</label>
+        <link refid="classgr_1_1MFSK_1_1MFSK__impl"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>gr::MFSK::MFSK</label>
+        <link refid="classgr_1_1MFSK_1_1MFSK"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" line="30" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/lib/MFSK_impl.h" bodystart="29" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1a039372a295dced69ca9b035a24628e76" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>amplitude</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1a848d16064c0f57b2a325e7ddb551adf8" prot="private" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>d_ampl</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1ab0f57de059b87bcd959c93d948b990c7" prot="private" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>d_freq</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1a05e6d7210c5a2744ddff459c635ebada" prot="private" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>d_m</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1ab8a153e7ba8cbba76bcec0b0b2bf1f30" prot="private" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>d_phase</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1aa29deabf773451e125445830b051de85" prot="private" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>d_samples_per_sym</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1ae9f42857ef30697b255dbcf680b20376" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1ae891b28414ec13d60db11da9ec9d9d1d" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>freq</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1ac4773bee22189ba1f044bdeed892e0dc" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1a18d2f95d244a545edbda09b26a8e923c" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>m</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK_1a03a8fed8d6dd1a04f671abf1158a25b5" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1a2659f8d558406d8a8f539f8ce29487e0" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>MFSK_impl</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1ac34f855f3771a47135a3b5eb4972fef5" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>phase</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1a092fff854706634644579e47f9ec486e" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>set_amplitude</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK_1a01bfc1aeedf48e3ceff45a2dfae303c5" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK__impl_1ae3962ac806f4d13f68933937662efe12" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK_impl</scope><name>~MFSK_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

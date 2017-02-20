@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_4d5382b9064bcfb8ac009bec2d8f33be" kind="dir">
+    <compoundname>MFSK</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="MFSK_8h">MFSK.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/include/MFSK/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<block>
+  <name>MFSK</name>
+  <key>MFSK_MFSK</key>
+  <category>MFSK</category>
+  <import>import MFSK</import>
+  <make>MFSK.MFSK($k, $ampl, $m, $samples_per_symbol)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+      <name>K</name>
+      <key>k</key>
+      <type>real</type>
+  </param>
+  
+  <param>
+      <name>Amplitude</name>
+      <key>ampl</key>
+      <type>real</type>
+  </param>
+  
+  <param>
+      <name>M</name>
+      <key>m</key>
+      <type>int</type>
+  </param>
+  
+  <param>
+      <name>Samples/Symbol</name>
+      <key>samples_per_symbol</key>
+      <type>int</type>
+  </param>
+  <sink>
+      <name>in</name>
+      <type>byte</type>
+  </sink>
+  
+  
+  <source>
+      <name>out</name>
+      <type>complex</type>
+  </source>
+</block>

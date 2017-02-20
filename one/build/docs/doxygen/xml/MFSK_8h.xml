@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="MFSK_8h" kind="file" language="C++">
+    <compoundname>MFSK.h</compoundname>
+    <includes refid="api_8h" local="no">MFSK/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="MFSK__impl_8h" local="no">MFSK_impl.h</includedby>
+    <incdepgraph>
+      <node id="32">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="30">
+        <label>MFSK.h</label>
+        <link refid="MFSK.h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="31">
+        <label>MFSK/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="35">
+        <label>MFSK_impl.h</label>
+        <link refid="MFSK__impl_8h"/>
+      </node>
+      <node id="34">
+        <label>MFSK.h</label>
+        <link refid="MFSK.h"/>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1MFSK_1_1MFSK" prot="public">gr::MFSK::MFSK</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1MFSK">gr::MFSK</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/include/MFSK/MFSK.h"/>
+  </compounddef>
+</doxygen>

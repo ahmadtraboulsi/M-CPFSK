@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classgr_1_1MFSK_1_1MFSK" kind="class" language="C++" prot="public">
+    <compoundname>gr::MFSK::MFSK</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1MFSK_1_1MFSK__impl" prot="public" virt="non-virtual">gr::MFSK::MFSK_impl</derivedcompoundref>
+    <includes refid="MFSK_8h" local="no">MFSK.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1MFSK_1_1MFSK_1a01bfc1aeedf48e3ceff45a2dfae303c5" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1MFSK_1_1MFSK" kindref="compound">MFSK</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;MFSK&gt; gr::MFSK::MFSK::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/include/MFSK/MFSK.h" line="39" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/include/MFSK/MFSK.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1MFSK_1_1MFSK_1a03a8fed8d6dd1a04f671abf1158a25b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1MFSK_1_1MFSK_1a01bfc1aeedf48e3ceff45a2dfae303c5" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::MFSK::MFSK::make</definition>
+        <argsstring>(float k, float ampl, int m, int samples_per_symbol)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ampl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samples_per_symbol</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1MFSK_1_1MFSK" kindref="compound">MFSK::MFSK</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1MFSK_1_1MFSK" kindref="compound">MFSK::MFSK</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1MFSK_1_1MFSK_1a03a8fed8d6dd1a04f671abf1158a25b5" kindref="member">MFSK::MFSK::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/include/MFSK/MFSK.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+      <node id="8">
+        <label>gr::MFSK::MFSK_impl</label>
+        <link refid="classgr_1_1MFSK_1_1MFSK__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr::MFSK::MFSK</label>
+        <link refid="classgr_1_1MFSK_1_1MFSK"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+      <node id="9">
+        <label>gr::MFSK::MFSK</label>
+        <link refid="classgr_1_1MFSK_1_1MFSK"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/include/MFSK/MFSK.h" line="37" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK/include/MFSK/MFSK.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1MFSK_1_1MFSK_1a03a8fed8d6dd1a04f671abf1158a25b5" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK</scope><name>make</name></member>
+      <member refid="classgr_1_1MFSK_1_1MFSK_1a01bfc1aeedf48e3ceff45a2dfae303c5" prot="public" virt="non-virtual"><scope>gr::MFSK::MFSK</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
