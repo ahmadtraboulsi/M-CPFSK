@@ -1,23 +1,42 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.10">
-  <compound refid="classgr_1_1MFSK__demod_1_1MFSKdemod" kind="class"><name>gr::MFSK_demod::MFSKdemod</name>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod_1a3aef8527de1f4463905110cd783f5f84" kind="typedef"><name>sptr</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod_1ac232b0cda266193834b40505cb47017d" kind="function"><name>make</name></member>
+  <compound refid="classgr_1_1MFSK__demod_1_1MFSK__demod2" kind="class"><name>gr::MFSK_demod::MFSK_demod2</name>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2_1a8a3b21c0ce41b45c92903a0c32b7a7c6" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2_1aa3a4df4317252cc1af0e716115037865" kind="function"><name>make</name></member>
   </compound>
-  <compound refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl" kind="class"><name>gr::MFSK_demod::MFSKdemod_impl</name>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1a782346bfe3bb7002622ab39c86aadbf0" kind="variable"><name>samp_sym</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1a5b884a176be95db7c53d6083ab445ece" kind="variable"><name>d_offset</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1abbb01c38940595aaff6646c650d7870d" kind="variable"><name>d_m</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1a69f854c5502a824bbbf043eaea36fce8" kind="variable"><name>d_k</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1a7bba1ec220a833f01064a8ffe44c8e17" kind="variable"><name>sum</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1a2d416a3e6239104d27e163913b4d3a36" kind="variable"><name>jexp_i</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1a8eb6b0f407becdc152660bf9d8e368c2" kind="variable"><name>squared_sum</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1aaf6c891c38eca67a936d6b33268665e9" kind="variable"><name>combinations</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1abeeef74ffcb8b8a9bdb2870b1939435e" kind="function"><name>MFSKdemod_impl</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1aaa6efbd6f3aab93abc4e52be67514ec5" kind="function"><name>~MFSKdemod_impl</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1a64df485fb0bbb71cce81735f32770614" kind="function"><name>no_of_bits_per_sym</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1a1879e22783941d39c8af68e6bbdb31d3" kind="function"><name>no_possible_comb</name></member>
-    <member refid="classgr_1_1MFSK__demod_1_1MFSKdemod__impl_1a15b3e3cfb6c1fbed418fe99bc5ffba64" kind="function"><name>work</name></member>
+  <compound refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl" kind="class"><name>gr::MFSK_demod::MFSK_demod2_impl</name>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1a37aaeb32ce28528190268f507395a493" kind="variable"><name>samp_sym</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1a30c3909672da8c77adaf54b5f7146832" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1afc95a82fde507804470c9ea80e4e337e" kind="variable"><name>d_m</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1aaed3f4347f62663d508ce5b0cf06f129" kind="variable"><name>d_k</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1ab64a4ba2b5d0391d2b11f48b04d08e10" kind="variable"><name>sum</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1a335f3a02e7a93534796f39bd0e3c97cc" kind="variable"><name>jexp_i</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1abbf463b82d22fc783b46165b8e4744c9" kind="variable"><name>squared_sum</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1ada283f44a68bd52aa157185dcb5982c6" kind="variable"><name>combinations</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1af6a6bf6fb4ab8f2592ed7f2aacbc1df6" kind="function"><name>MFSK_demod2_impl</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1a5fd33be346540fb0fd7eeb81e6ab4c49" kind="function"><name>~MFSK_demod2_impl</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1a1c88ff8e3bc93ccefe7d4d927b42c92b" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod2__impl_1a5062967782558b144dc2f6eeb34084e6" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1MFSK__demod_1_1MFSK__demod3" kind="class"><name>gr::MFSK_demod::MFSK_demod3</name>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3_1a50377a5390b02edc579e5d91f37fa276" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3_1ac7c2ea9dd0d221d07b6b60e7caeab63f" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl" kind="class"><name>gr::MFSK_demod::MFSK_demod3_impl</name>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1afa019e8b5201e5baf010af0abac222f5" kind="variable"><name>samp_sym</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a4d309e3ffc892e9518d704f8695eba89" kind="variable"><name>nck</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a9d621f14c01afa4f9dba8e0f7c8ceb1c" kind="variable"><name>d_offset</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1acd6c9fc757a839b3e9689135851da1df" kind="variable"><name>d_m</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a1ef75520f0d4c887a72adbee59bd47e6" kind="variable"><name>d_k</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a01633c69795b077ee235b7410606a309" kind="variable"><name>sum</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a06920f80ef8e645941c2c19affe34f3d" kind="variable"><name>Csum</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a8f02e73712c15a528bde39ab8c688844" kind="variable"><name>jexp_i</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a9520793ff8201d113ee76b3d44473b47" kind="variable"><name>squared_sum</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a5627215b14d894a746a3c297af0e5769" kind="variable"><name>combinations</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1aff4458c97154e74d1ad64f553fdbec4e" kind="function"><name>MFSK_demod3_impl</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1aad0bccc50d15c2004b2bcbb86a76b620" kind="function"><name>~MFSK_demod3_impl</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a176177eac22d05b46602cfa90e2da5b2" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a3a3207b5fcff32a5ed5626786b2c94ed" kind="function"><name>general_work</name></member>
   </compound>
   <compound refid="namespacegr" kind="namespace"><name>gr</name>
   </compound>
@@ -32,9 +51,13 @@
   </compound>
   <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
   </compound>
-  <compound refid="MFSKdemod_8h" kind="file"><name>MFSKdemod.h</name>
+  <compound refid="MFSK__demod2_8h" kind="file"><name>MFSK_demod2.h</name>
   </compound>
-  <compound refid="MFSKdemod__impl_8h" kind="file"><name>MFSKdemod_impl.h</name>
+  <compound refid="MFSK__demod2__impl_8h" kind="file"><name>MFSK_demod2_impl.h</name>
+  </compound>
+  <compound refid="MFSK__demod3_8h" kind="file"><name>MFSK_demod3.h</name>
+  </compound>
+  <compound refid="MFSK__demod3__impl_8h" kind="file"><name>MFSK_demod3_impl.h</name>
   </compound>
   <compound refid="group__block" kind="group"><name>block</name>
   </compound>

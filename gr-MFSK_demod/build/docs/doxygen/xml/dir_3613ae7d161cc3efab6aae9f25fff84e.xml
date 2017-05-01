@@ -3,7 +3,8 @@
   <compounddef id="dir_3613ae7d161cc3efab6aae9f25fff84e" kind="dir">
     <compoundname>MFSK_demod</compoundname>
     <innerfile refid="api_8h">api.h</innerfile>
-    <innerfile refid="MFSKdemod_8h">MFSKdemod.h</innerfile>
+    <innerfile refid="MFSK__demod2_8h">MFSK_demod2.h</innerfile>
+    <innerfile refid="MFSK__demod3_8h">MFSK_demod3.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

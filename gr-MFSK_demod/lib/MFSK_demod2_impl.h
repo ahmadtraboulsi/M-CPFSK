@@ -35,7 +35,6 @@ namespace gr {
     class MFSK_demod2_impl : public MFSK_demod2
     {
      private:
-      // Nothing to declare in this block.
 
      public:
         int samp_sym;

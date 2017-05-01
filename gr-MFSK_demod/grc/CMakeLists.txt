@@ -17,5 +17,7 @@
 # the Free Software Foundation, Inc., 51 Franklin Street,
 # Boston, MA 02110-1301, USA.
 install(FILES
-    MFSK_demod_MFSK_demod2.xml DESTINATION share/gnuradio/grc/blocks
+    MFSK_demod_MFSK_demod2.xml
+    MFSK_demod_MFSK_demod3.xml
+    MFSK_demod_symbol_timing_signal.xml DESTINATION share/gnuradio/grc/blocks
 )

@@ -31,6 +31,8 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/MFSK_demod" TYPE FILE FILES
     "/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/include/MFSK_demod/api.h"
     "/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/include/MFSK_demod/MFSK_demod2.h"
+    "/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/include/MFSK_demod/MFSK_demod3.h"
+    "/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/include/MFSK_demod/symbol_timing_signal.h"
     )
 endif()
 

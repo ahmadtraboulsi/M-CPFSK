@@ -28,6 +28,10 @@ if(NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES "/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/grc/MFSK_demod_MFSK_demod2.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
+    "/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/grc/MFSK_demod_MFSK_demod2.xml"
+    "/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/grc/MFSK_demod_MFSK_demod3.xml"
+    "/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/grc/MFSK_demod_symbol_timing_signal.xml"
+    )
 endif()
 

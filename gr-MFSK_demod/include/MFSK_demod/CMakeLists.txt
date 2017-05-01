@@ -22,5 +22,7 @@
 ########################################################################
 install(FILES
     api.h
-    MFSK_demod2.h DESTINATION include/MFSK_demod
+    MFSK_demod2.h
+    MFSK_demod3.h
+    symbol_timing_signal.h DESTINATION include/MFSK_demod
 )

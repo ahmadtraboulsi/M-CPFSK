@@ -3,7 +3,9 @@
 
 swig/CMakeFiles/_MFSK_demod_swig.dir/MFSK_demod_swigPYTHON_wrap.cxx.o
  ../include/MFSK_demod/MFSK_demod2.h
+ ../include/MFSK_demod/MFSK_demod3.h
  ../include/MFSK_demod/api.h
+ ../include/MFSK_demod/symbol_timing_signal.h
  /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/swig/MFSK_demod_swigPYTHON_wrap.cxx
  /opt/local/Library/Frameworks/Python.framework/Versions/2.7/Headers/Python.h
  /opt/local/Library/Frameworks/Python.framework/Versions/2.7/Headers/abstract.h

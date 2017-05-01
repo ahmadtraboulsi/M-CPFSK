@@ -2973,47 +2973,51 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 #define SWIGTYPE_p_allocator_type swig_types[0]
 #define SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t swig_types[1]
 #define SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod2_t swig_types[2]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t swig_types[3]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__block_detail_t swig_types[4]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__block_t swig_types[5]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_reader_t swig_types[6]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_t swig_types[7]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__flat_flowgraph_t swig_types[8]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__flowgraph_t swig_types[9]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__hier_block2_t swig_types[10]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t swig_types[11]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__top_block_t swig_types[12]
-#define SWIGTYPE_p_char swig_types[13]
-#define SWIGTYPE_p_const_reference swig_types[14]
-#define SWIGTYPE_p_difference_type swig_types[15]
-#define SWIGTYPE_p_gr__MFSK_demod__MFSK_demod2 swig_types[16]
-#define SWIGTYPE_p_gr__basic_block swig_types[17]
-#define SWIGTYPE_p_gr__block swig_types[18]
-#define SWIGTYPE_p_gr__block_gateway swig_types[19]
-#define SWIGTYPE_p_gr__endianness_t swig_types[20]
-#define SWIGTYPE_p_gr__hier_block2 swig_types[21]
-#define SWIGTYPE_p_gr__rt_status_t swig_types[22]
-#define SWIGTYPE_p_gr__sync_block swig_types[23]
-#define SWIGTYPE_p_gr__sync_decimator swig_types[24]
-#define SWIGTYPE_p_gr__sync_interpolator swig_types[25]
-#define SWIGTYPE_p_gr__tagged_stream_block swig_types[26]
-#define SWIGTYPE_p_gr__top_block swig_types[27]
-#define SWIGTYPE_p_int swig_types[28]
-#define SWIGTYPE_p_long_long swig_types[29]
-#define SWIGTYPE_p_reference swig_types[30]
-#define SWIGTYPE_p_short swig_types[31]
-#define SWIGTYPE_p_signed_char swig_types[32]
-#define SWIGTYPE_p_size_type swig_types[33]
-#define SWIGTYPE_p_sptr swig_types[34]
-#define SWIGTYPE_p_std__complexT_double_t swig_types[35]
-#define SWIGTYPE_p_std__complexT_float_t swig_types[36]
-#define SWIGTYPE_p_unsigned_char swig_types[37]
-#define SWIGTYPE_p_unsigned_int swig_types[38]
-#define SWIGTYPE_p_unsigned_long_long swig_types[39]
-#define SWIGTYPE_p_unsigned_short swig_types[40]
-#define SWIGTYPE_p_value_type swig_types[41]
-static swig_type_info *swig_types[43];
-static swig_module_info swig_module = {swig_types, 42, 0, 0, 0, 0};
+#define SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t swig_types[3]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t swig_types[4]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t swig_types[5]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__block_detail_t swig_types[6]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__block_t swig_types[7]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_reader_t swig_types[8]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_t swig_types[9]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__flat_flowgraph_t swig_types[10]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__flowgraph_t swig_types[11]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__hier_block2_t swig_types[12]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t swig_types[13]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__top_block_t swig_types[14]
+#define SWIGTYPE_p_char swig_types[15]
+#define SWIGTYPE_p_const_reference swig_types[16]
+#define SWIGTYPE_p_difference_type swig_types[17]
+#define SWIGTYPE_p_gr__MFSK_demod__MFSK_demod2 swig_types[18]
+#define SWIGTYPE_p_gr__MFSK_demod__MFSK_demod3 swig_types[19]
+#define SWIGTYPE_p_gr__MFSK_demod__symbol_timing_signal swig_types[20]
+#define SWIGTYPE_p_gr__basic_block swig_types[21]
+#define SWIGTYPE_p_gr__block swig_types[22]
+#define SWIGTYPE_p_gr__block_gateway swig_types[23]
+#define SWIGTYPE_p_gr__endianness_t swig_types[24]
+#define SWIGTYPE_p_gr__hier_block2 swig_types[25]
+#define SWIGTYPE_p_gr__rt_status_t swig_types[26]
+#define SWIGTYPE_p_gr__sync_block swig_types[27]
+#define SWIGTYPE_p_gr__sync_decimator swig_types[28]
+#define SWIGTYPE_p_gr__sync_interpolator swig_types[29]
+#define SWIGTYPE_p_gr__tagged_stream_block swig_types[30]
+#define SWIGTYPE_p_gr__top_block swig_types[31]
+#define SWIGTYPE_p_int swig_types[32]
+#define SWIGTYPE_p_long_long swig_types[33]
+#define SWIGTYPE_p_reference swig_types[34]
+#define SWIGTYPE_p_short swig_types[35]
+#define SWIGTYPE_p_signed_char swig_types[36]
+#define SWIGTYPE_p_size_type swig_types[37]
+#define SWIGTYPE_p_sptr swig_types[38]
+#define SWIGTYPE_p_std__complexT_double_t swig_types[39]
+#define SWIGTYPE_p_std__complexT_float_t swig_types[40]
+#define SWIGTYPE_p_unsigned_char swig_types[41]
+#define SWIGTYPE_p_unsigned_int swig_types[42]
+#define SWIGTYPE_p_unsigned_long_long swig_types[43]
+#define SWIGTYPE_p_unsigned_short swig_types[44]
+#define SWIGTYPE_p_value_type swig_types[45]
+static swig_type_info *swig_types[47];
+static swig_module_info swig_module = {swig_types, 46, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4322,6 +4326,8 @@ SWIG_From_long_SS_long  (long long value)
 
 
 #include "MFSK_demod/MFSK_demod2.h"
+#include "MFSK_demod/MFSK_demod3.h"
+#include "MFSK_demod/symbol_timing_signal.h"
 
 
 #include <float.h>
@@ -8228,13 +8234,6441 @@ SWIGINTERN PyObject *MFSK_demod2_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_MFSK_demod3_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  float arg1 ;
+  int arg2 ;
+  int arg3 ;
+  float val1 ;
+  int ecode1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "k",(char *) "m",(char *) "samples_per_symbol", NULL 
+  };
+  gr::MFSK_demod::MFSK_demod3::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:MFSK_demod3_make",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_float(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "MFSK_demod3_make" "', argument " "1"" of type '" "float""'");
+  } 
+  arg1 = static_cast< float >(val1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_make" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MFSK_demod3_make" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = gr::MFSK_demod::MFSK_demod3::make(arg1,arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::MFSK_demod::MFSK_demod3::sptr(static_cast< const gr::MFSK_demod::MFSK_demod3::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_MFSK_demod3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::MFSK_demod::MFSK_demod3 *arg1 = (gr::MFSK_demod::MFSK_demod3 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_MFSK_demod3",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__MFSK_demod__MFSK_demod3, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_MFSK_demod3" "', argument " "1"" of type '" "gr::MFSK_demod::MFSK_demod3 *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::MFSK_demod::MFSK_demod3 * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *MFSK_demod3_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__MFSK_demod__MFSK_demod3, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_MFSK_demod3_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_MFSK_demod3_sptr",0,0)) SWIG_fail;
+  {
+    try {
+      result = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *)new boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_MFSK_demod3_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::MFSK_demod::MFSK_demod3 *arg1 = (gr::MFSK_demod::MFSK_demod3 *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_MFSK_demod3_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__MFSK_demod__MFSK_demod3, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_MFSK_demod3_sptr" "', argument " "1"" of type '" "gr::MFSK_demod::MFSK_demod3 *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::MFSK_demod::MFSK_demod3 * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *)new boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_MFSK_demod3_sptr(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[2] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_MFSK_demod3_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__MFSK_demod__MFSK_demod3, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_MFSK_demod3_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_MFSK_demod3_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 >::shared_ptr(gr::MFSK_demod::MFSK_demod3 *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::MFSK_demod::MFSK_demod3 *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (gr::MFSK_demod::MFSK_demod3 *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__MFSK_demod__MFSK_demod3, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_MFSK_demod3_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_MFSK_demod3_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_MFSK_demod3_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  float arg2 ;
+  int arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "k",(char *) "m",(char *) "samples_per_symbol", NULL 
+  };
+  gr::MFSK_demod::MFSK_demod3::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOO:MFSK_demod3_sptr_make",kwnames,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_float(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_make" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MFSK_demod3_sptr_make" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  ecode4 = SWIG_AsVal_int(obj3, &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "MFSK_demod3_sptr_make" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = static_cast< int >(val4);
+  {
+    try {
+      result = (*arg1)->make(arg2,arg3,arg4);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::MFSK_demod::MFSK_demod3::sptr(static_cast< const gr::MFSK_demod::MFSK_demod3::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_declare_sample_delay__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_declare_sample_delay",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_declare_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MFSK_demod3_sptr_declare_sample_delay" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_declare_sample_delay__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_declare_sample_delay",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_declare_sample_delay" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_declare_sample_delay(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_MFSK_demod3_sptr_declare_sample_delay__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_MFSK_demod3_sptr_declare_sample_delay__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'MFSK_demod3_sptr_declare_sample_delay'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::declare_sample_delay(int,int)\n"
+    "    gr::block::declare_sample_delay(unsigned int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_sample_delay(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which", NULL 
+  };
+  unsigned int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_sample_delay",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (unsigned int)(*arg1)->sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_set_min_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_set_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_set_min_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_min_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_min_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->min_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MFSK_demod3_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_MFSK_demod3_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_MFSK_demod3_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'MFSK_demod3_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_max_output_buffer(long)\n"
+    "    gr::block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MFSK_demod3_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_MFSK_demod3_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_MFSK_demod3_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'MFSK_demod3_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_min_output_buffer(long)\n"
+    "    gr::block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_noutput_items_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_noutput_items_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_noutput_items_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_noutput_items_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_noutput_items_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_noutput_items_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_nproduced(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_nproduced",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_nproduced" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_nproduced_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_nproduced_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_nproduced_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_nproduced_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_nproduced_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_nproduced_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_input_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_input_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_pc_input_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_input_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_input_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_input_buffers_full(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_MFSK_demod3_sptr_pc_input_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_MFSK_demod3_sptr_pc_input_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'MFSK_demod3_sptr_pc_input_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full(int)\n"
+    "    gr::block::pc_input_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_input_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_input_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_pc_input_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_input_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_input_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_input_buffers_full_avg(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_MFSK_demod3_sptr_pc_input_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_MFSK_demod3_sptr_pc_input_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'MFSK_demod3_sptr_pc_input_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_avg(int)\n"
+    "    gr::block::pc_input_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_input_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_input_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_pc_input_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_input_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_input_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_input_buffers_full_var(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_MFSK_demod3_sptr_pc_input_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_MFSK_demod3_sptr_pc_input_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'MFSK_demod3_sptr_pc_input_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_var(int)\n"
+    "    gr::block::pc_input_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_output_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_output_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_pc_output_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_output_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_output_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_output_buffers_full(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_MFSK_demod3_sptr_pc_output_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_MFSK_demod3_sptr_pc_output_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'MFSK_demod3_sptr_pc_output_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full(int)\n"
+    "    gr::block::pc_output_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_output_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_output_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_pc_output_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_output_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_output_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_output_buffers_full_avg(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_MFSK_demod3_sptr_pc_output_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_MFSK_demod3_sptr_pc_output_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'MFSK_demod3_sptr_pc_output_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_avg(int)\n"
+    "    gr::block::pc_output_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_output_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_output_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_pc_output_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_output_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_output_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_output_buffers_full_var(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_MFSK_demod3_sptr_pc_output_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_MFSK_demod3_sptr_pc_output_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'MFSK_demod3_sptr_pc_output_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_var(int)\n"
+    "    gr::block::pc_output_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_work_time(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_work_time",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_work_time" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_work_time_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_work_time_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_work_time_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_work_time_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_work_time_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_work_time_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_work_time_total",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_work_time_total" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_total();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_throughput_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "mask", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_set_processor_affinity",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_set_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    std::vector<int,std::allocator< int > > *ptr = (std::vector<int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "MFSK_demod3_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "MFSK_demod3_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_processor_affinity((std::vector< int,std::allocator< int > > const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_unset_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_unset_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_unset_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< int,std::allocator< int > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_active_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_active_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_active_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->active_thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "priority", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_set_thread_priority",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_set_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_set_thread_priority" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (int)(*arg1)->set_thread_priority(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::basic_block_sptr(static_cast< const gr::basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:MFSK_demod3_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "MFSK_demod3_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "MFSK_demod3_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_set_block_alias",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "MFSK_demod3_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port",(char *) "msg", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:MFSK_demod3_sptr__post",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "MFSK_demod3_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "MFSK_demod3_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "MFSK_demod3_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "MFSK_demod3_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"MFSK_demod3_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_MFSK_demod3_sptr_message_subscribers(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *arg1 = (boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *) 0 ;
+  pmt::pmt_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port", NULL 
+  };
+  pmt::pmt_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:MFSK_demod3_sptr_message_subscribers",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "MFSK_demod3_sptr_message_subscribers" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "MFSK_demod3_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "MFSK_demod3_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->message_subscribers(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *MFSK_demod3_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  float arg1 ;
+  int arg2 ;
+  int arg3 ;
+  float val1 ;
+  int ecode1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "k",(char *) "m",(char *) "sampples_per_symbol", NULL 
+  };
+  gr::MFSK_demod::symbol_timing_signal::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:symbol_timing_signal_make",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  ecode1 = SWIG_AsVal_float(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "symbol_timing_signal_make" "', argument " "1"" of type '" "float""'");
+  } 
+  arg1 = static_cast< float >(val1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_make" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "symbol_timing_signal_make" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = gr::MFSK_demod::symbol_timing_signal::make(arg1,arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::MFSK_demod::symbol_timing_signal::sptr(static_cast< const gr::MFSK_demod::symbol_timing_signal::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_symbol_timing_signal(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::MFSK_demod::symbol_timing_signal *arg1 = (gr::MFSK_demod::symbol_timing_signal *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_symbol_timing_signal",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__MFSK_demod__symbol_timing_signal, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_symbol_timing_signal" "', argument " "1"" of type '" "gr::MFSK_demod::symbol_timing_signal *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::MFSK_demod::symbol_timing_signal * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *symbol_timing_signal_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__MFSK_demod__symbol_timing_signal, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_symbol_timing_signal_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_symbol_timing_signal_sptr",0,0)) SWIG_fail;
+  {
+    try {
+      result = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *)new boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_symbol_timing_signal_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::MFSK_demod::symbol_timing_signal *arg1 = (gr::MFSK_demod::symbol_timing_signal *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_symbol_timing_signal_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__MFSK_demod__symbol_timing_signal, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_symbol_timing_signal_sptr" "', argument " "1"" of type '" "gr::MFSK_demod::symbol_timing_signal *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::MFSK_demod::symbol_timing_signal * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *)new boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_symbol_timing_signal_sptr(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[2] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_symbol_timing_signal_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__MFSK_demod__symbol_timing_signal, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_symbol_timing_signal_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_symbol_timing_signal_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal >::shared_ptr(gr::MFSK_demod::symbol_timing_signal *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::MFSK_demod::symbol_timing_signal *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (gr::MFSK_demod::symbol_timing_signal *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__MFSK_demod__symbol_timing_signal, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_symbol_timing_signal_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_symbol_timing_signal_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_symbol_timing_signal_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  float arg2 ;
+  int arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "k",(char *) "m",(char *) "sampples_per_symbol", NULL 
+  };
+  gr::MFSK_demod::symbol_timing_signal::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOO:symbol_timing_signal_sptr_make",kwnames,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_float(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_make" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "symbol_timing_signal_sptr_make" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  ecode4 = SWIG_AsVal_int(obj3, &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "symbol_timing_signal_sptr_make" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = static_cast< int >(val4);
+  {
+    try {
+      result = (*arg1)->make(arg2,arg3,arg4);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::MFSK_demod::symbol_timing_signal::sptr(static_cast< const gr::MFSK_demod::symbol_timing_signal::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_declare_sample_delay__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_declare_sample_delay",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_declare_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "symbol_timing_signal_sptr_declare_sample_delay" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_declare_sample_delay__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_declare_sample_delay",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_declare_sample_delay" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_declare_sample_delay(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_symbol_timing_signal_sptr_declare_sample_delay__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_symbol_timing_signal_sptr_declare_sample_delay__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'symbol_timing_signal_sptr_declare_sample_delay'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::declare_sample_delay(int,int)\n"
+    "    gr::block::declare_sample_delay(unsigned int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_sample_delay(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which", NULL 
+  };
+  unsigned int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_sample_delay",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (unsigned int)(*arg1)->sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_set_min_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_set_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_set_min_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_min_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_min_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->min_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "symbol_timing_signal_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_symbol_timing_signal_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_symbol_timing_signal_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'symbol_timing_signal_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_max_output_buffer(long)\n"
+    "    gr::block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "symbol_timing_signal_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_symbol_timing_signal_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_symbol_timing_signal_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'symbol_timing_signal_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_min_output_buffer(long)\n"
+    "    gr::block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_noutput_items_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_noutput_items_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_noutput_items_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_noutput_items_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_noutput_items_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_noutput_items_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_nproduced(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_nproduced",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_nproduced" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_nproduced_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_nproduced_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_nproduced_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_nproduced_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_nproduced_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_nproduced_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_input_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_input_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_pc_input_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_input_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_input_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_input_buffers_full(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_symbol_timing_signal_sptr_pc_input_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_symbol_timing_signal_sptr_pc_input_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'symbol_timing_signal_sptr_pc_input_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full(int)\n"
+    "    gr::block::pc_input_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_input_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_input_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_pc_input_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_input_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_input_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_input_buffers_full_avg(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_symbol_timing_signal_sptr_pc_input_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_symbol_timing_signal_sptr_pc_input_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'symbol_timing_signal_sptr_pc_input_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_avg(int)\n"
+    "    gr::block::pc_input_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_input_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_input_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_pc_input_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_input_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_input_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_input_buffers_full_var(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_symbol_timing_signal_sptr_pc_input_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_symbol_timing_signal_sptr_pc_input_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'symbol_timing_signal_sptr_pc_input_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_var(int)\n"
+    "    gr::block::pc_input_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_output_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_output_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_pc_output_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_output_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_output_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_output_buffers_full(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_symbol_timing_signal_sptr_pc_output_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_symbol_timing_signal_sptr_pc_output_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'symbol_timing_signal_sptr_pc_output_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full(int)\n"
+    "    gr::block::pc_output_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_output_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_output_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_pc_output_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_output_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_output_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_output_buffers_full_avg(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_symbol_timing_signal_sptr_pc_output_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_symbol_timing_signal_sptr_pc_output_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'symbol_timing_signal_sptr_pc_output_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_avg(int)\n"
+    "    gr::block::pc_output_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_output_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_output_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_pc_output_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_output_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_output_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_output_buffers_full_var(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[3] = {
+    0
+  };
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? (int)PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_symbol_timing_signal_sptr_pc_output_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_symbol_timing_signal_sptr_pc_output_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'symbol_timing_signal_sptr_pc_output_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_var(int)\n"
+    "    gr::block::pc_output_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_work_time(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_work_time",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_work_time" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_work_time_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_work_time_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_work_time_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_work_time_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_work_time_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_work_time_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_work_time_total",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_work_time_total" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_total();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_throughput_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "mask", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_set_processor_affinity",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_set_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    std::vector<int,std::allocator< int > > *ptr = (std::vector<int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "symbol_timing_signal_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "symbol_timing_signal_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_processor_affinity((std::vector< int,std::allocator< int > > const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_unset_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_unset_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_unset_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< int,std::allocator< int > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector<int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_active_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_active_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_active_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->active_thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "priority", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_set_thread_priority",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_set_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_set_thread_priority" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (int)(*arg1)->set_thread_priority(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::basic_block_sptr(static_cast< const gr::basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:symbol_timing_signal_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "symbol_timing_signal_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "symbol_timing_signal_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_set_block_alias",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "symbol_timing_signal_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port",(char *) "msg", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:symbol_timing_signal_sptr__post",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "symbol_timing_signal_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "symbol_timing_signal_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "symbol_timing_signal_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "symbol_timing_signal_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"symbol_timing_signal_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_symbol_timing_signal_sptr_message_subscribers(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *arg1 = (boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *) 0 ;
+  pmt::pmt_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port", NULL 
+  };
+  pmt::pmt_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:symbol_timing_signal_sptr_message_subscribers",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "symbol_timing_signal_sptr_message_subscribers" "', argument " "1"" of type '" "boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "symbol_timing_signal_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "symbol_timing_signal_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->message_subscribers(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *symbol_timing_signal_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { (char *)"high_res_timer_now", _wrap_high_res_timer_now, METH_VARARGS, (char *)"high_res_timer_now() -> gr::high_res_timer_type"},
 	 { (char *)"high_res_timer_now_perfmon", _wrap_high_res_timer_now_perfmon, METH_VARARGS, (char *)"high_res_timer_now_perfmon() -> gr::high_res_timer_type"},
 	 { (char *)"high_res_timer_tps", _wrap_high_res_timer_tps, METH_VARARGS, (char *)"high_res_timer_tps() -> gr::high_res_timer_type"},
 	 { (char *)"high_res_timer_epoch", _wrap_high_res_timer_epoch, METH_VARARGS, (char *)"high_res_timer_epoch() -> gr::high_res_timer_type"},
-	 { (char *)"MFSK_demod2_make", (PyCFunction) _wrap_MFSK_demod2_make, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod2_make(float k, int m, int samples_per_symbol) -> MFSK_demod2_sptr"},
+	 { (char *)"MFSK_demod2_make", (PyCFunction) _wrap_MFSK_demod2_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
+		"MFSK_demod2_make(float k, int m, int samples_per_symbol) -> MFSK_demod2_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of MFSK_demod::MFSK_demod2.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, MFSK_demod::MFSK_demod2's constructor is in a private implementation class. MFSK_demod::MFSK_demod2::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (k, m, samples_per_symbol)\n"
+		""},
 	 { (char *)"delete_MFSK_demod2", _wrap_delete_MFSK_demod2, METH_VARARGS, (char *)"delete_MFSK_demod2(MFSK_demod2 self)"},
 	 { (char *)"MFSK_demod2_swigregister", MFSK_demod2_swigregister, METH_VARARGS, NULL},
 	 { (char *)"new_MFSK_demod2_sptr", _wrap_new_MFSK_demod2_sptr, METH_VARARGS, (char *)"\n"
@@ -8243,7 +14677,15 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { (char *)"MFSK_demod2_sptr___deref__", _wrap_MFSK_demod2_sptr___deref__, METH_VARARGS, (char *)"MFSK_demod2_sptr___deref__(MFSK_demod2_sptr self) -> MFSK_demod2"},
 	 { (char *)"delete_MFSK_demod2_sptr", _wrap_delete_MFSK_demod2_sptr, METH_VARARGS, (char *)"delete_MFSK_demod2_sptr(MFSK_demod2_sptr self)"},
-	 { (char *)"MFSK_demod2_sptr_make", (PyCFunction) _wrap_MFSK_demod2_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod2_sptr_make(MFSK_demod2_sptr self, float k, int m, int samples_per_symbol) -> MFSK_demod2_sptr"},
+	 { (char *)"MFSK_demod2_sptr_make", (PyCFunction) _wrap_MFSK_demod2_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
+		"MFSK_demod2_sptr_make(MFSK_demod2_sptr self, float k, int m, int samples_per_symbol) -> MFSK_demod2_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of MFSK_demod::MFSK_demod2.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, MFSK_demod::MFSK_demod2's constructor is in a private implementation class. MFSK_demod::MFSK_demod2::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (k, m, samples_per_symbol)\n"
+		""},
 	 { (char *)"MFSK_demod2_sptr_history", _wrap_MFSK_demod2_sptr_history, METH_VARARGS, (char *)"MFSK_demod2_sptr_history(MFSK_demod2_sptr self) -> unsigned int"},
 	 { (char *)"MFSK_demod2_sptr_declare_sample_delay", _wrap_MFSK_demod2_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
 		"declare_sample_delay(int which, int delay)\n"
@@ -8327,6 +14769,208 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"MFSK_demod2_sptr_message_ports_out", _wrap_MFSK_demod2_sptr_message_ports_out, METH_VARARGS, (char *)"MFSK_demod2_sptr_message_ports_out(MFSK_demod2_sptr self) -> swig_int_ptr"},
 	 { (char *)"MFSK_demod2_sptr_message_subscribers", (PyCFunction) _wrap_MFSK_demod2_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod2_sptr_message_subscribers(MFSK_demod2_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
 	 { (char *)"MFSK_demod2_sptr_swigregister", MFSK_demod2_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"MFSK_demod3_make", (PyCFunction) _wrap_MFSK_demod3_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
+		"MFSK_demod3_make(float k, int m, int samples_per_symbol) -> MFSK_demod3_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of MFSK_demod::MFSK_demod3.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, MFSK_demod::MFSK_demod3's constructor is in a private implementation class. MFSK_demod::MFSK_demod3::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (k, m, samples_per_symbol)\n"
+		""},
+	 { (char *)"delete_MFSK_demod3", _wrap_delete_MFSK_demod3, METH_VARARGS, (char *)"delete_MFSK_demod3(MFSK_demod3 self)"},
+	 { (char *)"MFSK_demod3_swigregister", MFSK_demod3_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_MFSK_demod3_sptr", _wrap_new_MFSK_demod3_sptr, METH_VARARGS, (char *)"\n"
+		"MFSK_demod3_sptr()\n"
+		"new_MFSK_demod3_sptr(MFSK_demod3 p) -> MFSK_demod3_sptr\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr___deref__", _wrap_MFSK_demod3_sptr___deref__, METH_VARARGS, (char *)"MFSK_demod3_sptr___deref__(MFSK_demod3_sptr self) -> MFSK_demod3"},
+	 { (char *)"delete_MFSK_demod3_sptr", _wrap_delete_MFSK_demod3_sptr, METH_VARARGS, (char *)"delete_MFSK_demod3_sptr(MFSK_demod3_sptr self)"},
+	 { (char *)"MFSK_demod3_sptr_make", (PyCFunction) _wrap_MFSK_demod3_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"\n"
+		"MFSK_demod3_sptr_make(MFSK_demod3_sptr self, float k, int m, int samples_per_symbol) -> MFSK_demod3_sptr\n"
+		"\n"
+		"Return a shared_ptr to a new instance of MFSK_demod::MFSK_demod3.\n"
+		"\n"
+		"To avoid accidental use of raw pointers, MFSK_demod::MFSK_demod3's constructor is in a private implementation class. MFSK_demod::MFSK_demod3::make is the public interface for creating new instances.\n"
+		"\n"
+		"Params: (k, m, samples_per_symbol)\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr_history", _wrap_MFSK_demod3_sptr_history, METH_VARARGS, (char *)"MFSK_demod3_sptr_history(MFSK_demod3_sptr self) -> unsigned int"},
+	 { (char *)"MFSK_demod3_sptr_declare_sample_delay", _wrap_MFSK_demod3_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
+		"declare_sample_delay(int which, int delay)\n"
+		"MFSK_demod3_sptr_declare_sample_delay(MFSK_demod3_sptr self, unsigned int delay)\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr_sample_delay", (PyCFunction) _wrap_MFSK_demod3_sptr_sample_delay, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_sample_delay(MFSK_demod3_sptr self, int which) -> unsigned int"},
+	 { (char *)"MFSK_demod3_sptr_output_multiple", _wrap_MFSK_demod3_sptr_output_multiple, METH_VARARGS, (char *)"MFSK_demod3_sptr_output_multiple(MFSK_demod3_sptr self) -> int"},
+	 { (char *)"MFSK_demod3_sptr_relative_rate", _wrap_MFSK_demod3_sptr_relative_rate, METH_VARARGS, (char *)"MFSK_demod3_sptr_relative_rate(MFSK_demod3_sptr self) -> double"},
+	 { (char *)"MFSK_demod3_sptr_start", _wrap_MFSK_demod3_sptr_start, METH_VARARGS, (char *)"MFSK_demod3_sptr_start(MFSK_demod3_sptr self) -> bool"},
+	 { (char *)"MFSK_demod3_sptr_stop", _wrap_MFSK_demod3_sptr_stop, METH_VARARGS, (char *)"MFSK_demod3_sptr_stop(MFSK_demod3_sptr self) -> bool"},
+	 { (char *)"MFSK_demod3_sptr_nitems_read", (PyCFunction) _wrap_MFSK_demod3_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_nitems_read(MFSK_demod3_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"MFSK_demod3_sptr_nitems_written", (PyCFunction) _wrap_MFSK_demod3_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_nitems_written(MFSK_demod3_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"MFSK_demod3_sptr_max_noutput_items", _wrap_MFSK_demod3_sptr_max_noutput_items, METH_VARARGS, (char *)"MFSK_demod3_sptr_max_noutput_items(MFSK_demod3_sptr self) -> int"},
+	 { (char *)"MFSK_demod3_sptr_set_max_noutput_items", (PyCFunction) _wrap_MFSK_demod3_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_set_max_noutput_items(MFSK_demod3_sptr self, int m)"},
+	 { (char *)"MFSK_demod3_sptr_unset_max_noutput_items", _wrap_MFSK_demod3_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"MFSK_demod3_sptr_unset_max_noutput_items(MFSK_demod3_sptr self)"},
+	 { (char *)"MFSK_demod3_sptr_is_set_max_noutput_items", _wrap_MFSK_demod3_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"MFSK_demod3_sptr_is_set_max_noutput_items(MFSK_demod3_sptr self) -> bool"},
+	 { (char *)"MFSK_demod3_sptr_set_min_noutput_items", (PyCFunction) _wrap_MFSK_demod3_sptr_set_min_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_set_min_noutput_items(MFSK_demod3_sptr self, int m)"},
+	 { (char *)"MFSK_demod3_sptr_min_noutput_items", _wrap_MFSK_demod3_sptr_min_noutput_items, METH_VARARGS, (char *)"MFSK_demod3_sptr_min_noutput_items(MFSK_demod3_sptr self) -> int"},
+	 { (char *)"MFSK_demod3_sptr_max_output_buffer", (PyCFunction) _wrap_MFSK_demod3_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_max_output_buffer(MFSK_demod3_sptr self, int i) -> long"},
+	 { (char *)"MFSK_demod3_sptr_set_max_output_buffer", _wrap_MFSK_demod3_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"MFSK_demod3_sptr_set_max_output_buffer(MFSK_demod3_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr_min_output_buffer", (PyCFunction) _wrap_MFSK_demod3_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_min_output_buffer(MFSK_demod3_sptr self, int i) -> long"},
+	 { (char *)"MFSK_demod3_sptr_set_min_output_buffer", _wrap_MFSK_demod3_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"MFSK_demod3_sptr_set_min_output_buffer(MFSK_demod3_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr_pc_noutput_items", _wrap_MFSK_demod3_sptr_pc_noutput_items, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_noutput_items(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_pc_noutput_items_avg", _wrap_MFSK_demod3_sptr_pc_noutput_items_avg, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_noutput_items_avg(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_pc_noutput_items_var", _wrap_MFSK_demod3_sptr_pc_noutput_items_var, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_noutput_items_var(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_pc_nproduced", _wrap_MFSK_demod3_sptr_pc_nproduced, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_nproduced(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_pc_nproduced_avg", _wrap_MFSK_demod3_sptr_pc_nproduced_avg, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_nproduced_avg(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_pc_nproduced_var", _wrap_MFSK_demod3_sptr_pc_nproduced_var, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_nproduced_var(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_pc_input_buffers_full", _wrap_MFSK_demod3_sptr_pc_input_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full(int which) -> float\n"
+		"MFSK_demod3_sptr_pc_input_buffers_full(MFSK_demod3_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr_pc_input_buffers_full_avg", _wrap_MFSK_demod3_sptr_pc_input_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_avg(int which) -> float\n"
+		"MFSK_demod3_sptr_pc_input_buffers_full_avg(MFSK_demod3_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr_pc_input_buffers_full_var", _wrap_MFSK_demod3_sptr_pc_input_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_var(int which) -> float\n"
+		"MFSK_demod3_sptr_pc_input_buffers_full_var(MFSK_demod3_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr_pc_output_buffers_full", _wrap_MFSK_demod3_sptr_pc_output_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full(int which) -> float\n"
+		"MFSK_demod3_sptr_pc_output_buffers_full(MFSK_demod3_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr_pc_output_buffers_full_avg", _wrap_MFSK_demod3_sptr_pc_output_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_avg(int which) -> float\n"
+		"MFSK_demod3_sptr_pc_output_buffers_full_avg(MFSK_demod3_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr_pc_output_buffers_full_var", _wrap_MFSK_demod3_sptr_pc_output_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_var(int which) -> float\n"
+		"MFSK_demod3_sptr_pc_output_buffers_full_var(MFSK_demod3_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"MFSK_demod3_sptr_pc_work_time", _wrap_MFSK_demod3_sptr_pc_work_time, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_work_time(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_pc_work_time_avg", _wrap_MFSK_demod3_sptr_pc_work_time_avg, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_work_time_avg(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_pc_work_time_var", _wrap_MFSK_demod3_sptr_pc_work_time_var, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_work_time_var(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_pc_work_time_total", _wrap_MFSK_demod3_sptr_pc_work_time_total, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_work_time_total(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_pc_throughput_avg", _wrap_MFSK_demod3_sptr_pc_throughput_avg, METH_VARARGS, (char *)"MFSK_demod3_sptr_pc_throughput_avg(MFSK_demod3_sptr self) -> float"},
+	 { (char *)"MFSK_demod3_sptr_set_processor_affinity", (PyCFunction) _wrap_MFSK_demod3_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_set_processor_affinity(MFSK_demod3_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
+	 { (char *)"MFSK_demod3_sptr_unset_processor_affinity", _wrap_MFSK_demod3_sptr_unset_processor_affinity, METH_VARARGS, (char *)"MFSK_demod3_sptr_unset_processor_affinity(MFSK_demod3_sptr self)"},
+	 { (char *)"MFSK_demod3_sptr_processor_affinity", _wrap_MFSK_demod3_sptr_processor_affinity, METH_VARARGS, (char *)"MFSK_demod3_sptr_processor_affinity(MFSK_demod3_sptr self) -> std::vector< int,std::allocator< int > >"},
+	 { (char *)"MFSK_demod3_sptr_active_thread_priority", _wrap_MFSK_demod3_sptr_active_thread_priority, METH_VARARGS, (char *)"MFSK_demod3_sptr_active_thread_priority(MFSK_demod3_sptr self) -> int"},
+	 { (char *)"MFSK_demod3_sptr_thread_priority", _wrap_MFSK_demod3_sptr_thread_priority, METH_VARARGS, (char *)"MFSK_demod3_sptr_thread_priority(MFSK_demod3_sptr self) -> int"},
+	 { (char *)"MFSK_demod3_sptr_set_thread_priority", (PyCFunction) _wrap_MFSK_demod3_sptr_set_thread_priority, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_set_thread_priority(MFSK_demod3_sptr self, int priority) -> int"},
+	 { (char *)"MFSK_demod3_sptr_name", _wrap_MFSK_demod3_sptr_name, METH_VARARGS, (char *)"MFSK_demod3_sptr_name(MFSK_demod3_sptr self) -> std::string"},
+	 { (char *)"MFSK_demod3_sptr_symbol_name", _wrap_MFSK_demod3_sptr_symbol_name, METH_VARARGS, (char *)"MFSK_demod3_sptr_symbol_name(MFSK_demod3_sptr self) -> std::string"},
+	 { (char *)"MFSK_demod3_sptr_input_signature", _wrap_MFSK_demod3_sptr_input_signature, METH_VARARGS, (char *)"MFSK_demod3_sptr_input_signature(MFSK_demod3_sptr self) -> io_signature_sptr"},
+	 { (char *)"MFSK_demod3_sptr_output_signature", _wrap_MFSK_demod3_sptr_output_signature, METH_VARARGS, (char *)"MFSK_demod3_sptr_output_signature(MFSK_demod3_sptr self) -> io_signature_sptr"},
+	 { (char *)"MFSK_demod3_sptr_unique_id", _wrap_MFSK_demod3_sptr_unique_id, METH_VARARGS, (char *)"MFSK_demod3_sptr_unique_id(MFSK_demod3_sptr self) -> long"},
+	 { (char *)"MFSK_demod3_sptr_to_basic_block", _wrap_MFSK_demod3_sptr_to_basic_block, METH_VARARGS, (char *)"MFSK_demod3_sptr_to_basic_block(MFSK_demod3_sptr self) -> basic_block_sptr"},
+	 { (char *)"MFSK_demod3_sptr_check_topology", (PyCFunction) _wrap_MFSK_demod3_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_check_topology(MFSK_demod3_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"MFSK_demod3_sptr_alias", _wrap_MFSK_demod3_sptr_alias, METH_VARARGS, (char *)"MFSK_demod3_sptr_alias(MFSK_demod3_sptr self) -> std::string"},
+	 { (char *)"MFSK_demod3_sptr_set_block_alias", (PyCFunction) _wrap_MFSK_demod3_sptr_set_block_alias, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_set_block_alias(MFSK_demod3_sptr self, std::string name)"},
+	 { (char *)"MFSK_demod3_sptr__post", (PyCFunction) _wrap_MFSK_demod3_sptr__post, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr__post(MFSK_demod3_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"},
+	 { (char *)"MFSK_demod3_sptr_message_ports_in", _wrap_MFSK_demod3_sptr_message_ports_in, METH_VARARGS, (char *)"MFSK_demod3_sptr_message_ports_in(MFSK_demod3_sptr self) -> swig_int_ptr"},
+	 { (char *)"MFSK_demod3_sptr_message_ports_out", _wrap_MFSK_demod3_sptr_message_ports_out, METH_VARARGS, (char *)"MFSK_demod3_sptr_message_ports_out(MFSK_demod3_sptr self) -> swig_int_ptr"},
+	 { (char *)"MFSK_demod3_sptr_message_subscribers", (PyCFunction) _wrap_MFSK_demod3_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"MFSK_demod3_sptr_message_subscribers(MFSK_demod3_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
+	 { (char *)"MFSK_demod3_sptr_swigregister", MFSK_demod3_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"symbol_timing_signal_make", (PyCFunction) _wrap_symbol_timing_signal_make, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_make(float k, int m, int sampples_per_symbol) -> symbol_timing_signal_sptr"},
+	 { (char *)"delete_symbol_timing_signal", _wrap_delete_symbol_timing_signal, METH_VARARGS, (char *)"delete_symbol_timing_signal(symbol_timing_signal self)"},
+	 { (char *)"symbol_timing_signal_swigregister", symbol_timing_signal_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_symbol_timing_signal_sptr", _wrap_new_symbol_timing_signal_sptr, METH_VARARGS, (char *)"\n"
+		"symbol_timing_signal_sptr()\n"
+		"new_symbol_timing_signal_sptr(symbol_timing_signal p) -> symbol_timing_signal_sptr\n"
+		""},
+	 { (char *)"symbol_timing_signal_sptr___deref__", _wrap_symbol_timing_signal_sptr___deref__, METH_VARARGS, (char *)"symbol_timing_signal_sptr___deref__(symbol_timing_signal_sptr self) -> symbol_timing_signal"},
+	 { (char *)"delete_symbol_timing_signal_sptr", _wrap_delete_symbol_timing_signal_sptr, METH_VARARGS, (char *)"delete_symbol_timing_signal_sptr(symbol_timing_signal_sptr self)"},
+	 { (char *)"symbol_timing_signal_sptr_make", (PyCFunction) _wrap_symbol_timing_signal_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_make(symbol_timing_signal_sptr self, float k, int m, int sampples_per_symbol) -> symbol_timing_signal_sptr"},
+	 { (char *)"symbol_timing_signal_sptr_history", _wrap_symbol_timing_signal_sptr_history, METH_VARARGS, (char *)"symbol_timing_signal_sptr_history(symbol_timing_signal_sptr self) -> unsigned int"},
+	 { (char *)"symbol_timing_signal_sptr_declare_sample_delay", _wrap_symbol_timing_signal_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
+		"declare_sample_delay(int which, int delay)\n"
+		"symbol_timing_signal_sptr_declare_sample_delay(symbol_timing_signal_sptr self, unsigned int delay)\n"
+		""},
+	 { (char *)"symbol_timing_signal_sptr_sample_delay", (PyCFunction) _wrap_symbol_timing_signal_sptr_sample_delay, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_sample_delay(symbol_timing_signal_sptr self, int which) -> unsigned int"},
+	 { (char *)"symbol_timing_signal_sptr_output_multiple", _wrap_symbol_timing_signal_sptr_output_multiple, METH_VARARGS, (char *)"symbol_timing_signal_sptr_output_multiple(symbol_timing_signal_sptr self) -> int"},
+	 { (char *)"symbol_timing_signal_sptr_relative_rate", _wrap_symbol_timing_signal_sptr_relative_rate, METH_VARARGS, (char *)"symbol_timing_signal_sptr_relative_rate(symbol_timing_signal_sptr self) -> double"},
+	 { (char *)"symbol_timing_signal_sptr_start", _wrap_symbol_timing_signal_sptr_start, METH_VARARGS, (char *)"symbol_timing_signal_sptr_start(symbol_timing_signal_sptr self) -> bool"},
+	 { (char *)"symbol_timing_signal_sptr_stop", _wrap_symbol_timing_signal_sptr_stop, METH_VARARGS, (char *)"symbol_timing_signal_sptr_stop(symbol_timing_signal_sptr self) -> bool"},
+	 { (char *)"symbol_timing_signal_sptr_nitems_read", (PyCFunction) _wrap_symbol_timing_signal_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_nitems_read(symbol_timing_signal_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"symbol_timing_signal_sptr_nitems_written", (PyCFunction) _wrap_symbol_timing_signal_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_nitems_written(symbol_timing_signal_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"symbol_timing_signal_sptr_max_noutput_items", _wrap_symbol_timing_signal_sptr_max_noutput_items, METH_VARARGS, (char *)"symbol_timing_signal_sptr_max_noutput_items(symbol_timing_signal_sptr self) -> int"},
+	 { (char *)"symbol_timing_signal_sptr_set_max_noutput_items", (PyCFunction) _wrap_symbol_timing_signal_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_set_max_noutput_items(symbol_timing_signal_sptr self, int m)"},
+	 { (char *)"symbol_timing_signal_sptr_unset_max_noutput_items", _wrap_symbol_timing_signal_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"symbol_timing_signal_sptr_unset_max_noutput_items(symbol_timing_signal_sptr self)"},
+	 { (char *)"symbol_timing_signal_sptr_is_set_max_noutput_items", _wrap_symbol_timing_signal_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"symbol_timing_signal_sptr_is_set_max_noutput_items(symbol_timing_signal_sptr self) -> bool"},
+	 { (char *)"symbol_timing_signal_sptr_set_min_noutput_items", (PyCFunction) _wrap_symbol_timing_signal_sptr_set_min_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_set_min_noutput_items(symbol_timing_signal_sptr self, int m)"},
+	 { (char *)"symbol_timing_signal_sptr_min_noutput_items", _wrap_symbol_timing_signal_sptr_min_noutput_items, METH_VARARGS, (char *)"symbol_timing_signal_sptr_min_noutput_items(symbol_timing_signal_sptr self) -> int"},
+	 { (char *)"symbol_timing_signal_sptr_max_output_buffer", (PyCFunction) _wrap_symbol_timing_signal_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_max_output_buffer(symbol_timing_signal_sptr self, int i) -> long"},
+	 { (char *)"symbol_timing_signal_sptr_set_max_output_buffer", _wrap_symbol_timing_signal_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"symbol_timing_signal_sptr_set_max_output_buffer(symbol_timing_signal_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"symbol_timing_signal_sptr_min_output_buffer", (PyCFunction) _wrap_symbol_timing_signal_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_min_output_buffer(symbol_timing_signal_sptr self, int i) -> long"},
+	 { (char *)"symbol_timing_signal_sptr_set_min_output_buffer", _wrap_symbol_timing_signal_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"symbol_timing_signal_sptr_set_min_output_buffer(symbol_timing_signal_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"symbol_timing_signal_sptr_pc_noutput_items", _wrap_symbol_timing_signal_sptr_pc_noutput_items, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_noutput_items(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_pc_noutput_items_avg", _wrap_symbol_timing_signal_sptr_pc_noutput_items_avg, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_noutput_items_avg(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_pc_noutput_items_var", _wrap_symbol_timing_signal_sptr_pc_noutput_items_var, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_noutput_items_var(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_pc_nproduced", _wrap_symbol_timing_signal_sptr_pc_nproduced, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_nproduced(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_pc_nproduced_avg", _wrap_symbol_timing_signal_sptr_pc_nproduced_avg, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_nproduced_avg(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_pc_nproduced_var", _wrap_symbol_timing_signal_sptr_pc_nproduced_var, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_nproduced_var(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_pc_input_buffers_full", _wrap_symbol_timing_signal_sptr_pc_input_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full(int which) -> float\n"
+		"symbol_timing_signal_sptr_pc_input_buffers_full(symbol_timing_signal_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"symbol_timing_signal_sptr_pc_input_buffers_full_avg", _wrap_symbol_timing_signal_sptr_pc_input_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_avg(int which) -> float\n"
+		"symbol_timing_signal_sptr_pc_input_buffers_full_avg(symbol_timing_signal_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"symbol_timing_signal_sptr_pc_input_buffers_full_var", _wrap_symbol_timing_signal_sptr_pc_input_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_var(int which) -> float\n"
+		"symbol_timing_signal_sptr_pc_input_buffers_full_var(symbol_timing_signal_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"symbol_timing_signal_sptr_pc_output_buffers_full", _wrap_symbol_timing_signal_sptr_pc_output_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full(int which) -> float\n"
+		"symbol_timing_signal_sptr_pc_output_buffers_full(symbol_timing_signal_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"symbol_timing_signal_sptr_pc_output_buffers_full_avg", _wrap_symbol_timing_signal_sptr_pc_output_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_avg(int which) -> float\n"
+		"symbol_timing_signal_sptr_pc_output_buffers_full_avg(symbol_timing_signal_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"symbol_timing_signal_sptr_pc_output_buffers_full_var", _wrap_symbol_timing_signal_sptr_pc_output_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_var(int which) -> float\n"
+		"symbol_timing_signal_sptr_pc_output_buffers_full_var(symbol_timing_signal_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"symbol_timing_signal_sptr_pc_work_time", _wrap_symbol_timing_signal_sptr_pc_work_time, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_work_time(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_pc_work_time_avg", _wrap_symbol_timing_signal_sptr_pc_work_time_avg, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_work_time_avg(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_pc_work_time_var", _wrap_symbol_timing_signal_sptr_pc_work_time_var, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_work_time_var(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_pc_work_time_total", _wrap_symbol_timing_signal_sptr_pc_work_time_total, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_work_time_total(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_pc_throughput_avg", _wrap_symbol_timing_signal_sptr_pc_throughput_avg, METH_VARARGS, (char *)"symbol_timing_signal_sptr_pc_throughput_avg(symbol_timing_signal_sptr self) -> float"},
+	 { (char *)"symbol_timing_signal_sptr_set_processor_affinity", (PyCFunction) _wrap_symbol_timing_signal_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_set_processor_affinity(symbol_timing_signal_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
+	 { (char *)"symbol_timing_signal_sptr_unset_processor_affinity", _wrap_symbol_timing_signal_sptr_unset_processor_affinity, METH_VARARGS, (char *)"symbol_timing_signal_sptr_unset_processor_affinity(symbol_timing_signal_sptr self)"},
+	 { (char *)"symbol_timing_signal_sptr_processor_affinity", _wrap_symbol_timing_signal_sptr_processor_affinity, METH_VARARGS, (char *)"symbol_timing_signal_sptr_processor_affinity(symbol_timing_signal_sptr self) -> std::vector< int,std::allocator< int > >"},
+	 { (char *)"symbol_timing_signal_sptr_active_thread_priority", _wrap_symbol_timing_signal_sptr_active_thread_priority, METH_VARARGS, (char *)"symbol_timing_signal_sptr_active_thread_priority(symbol_timing_signal_sptr self) -> int"},
+	 { (char *)"symbol_timing_signal_sptr_thread_priority", _wrap_symbol_timing_signal_sptr_thread_priority, METH_VARARGS, (char *)"symbol_timing_signal_sptr_thread_priority(symbol_timing_signal_sptr self) -> int"},
+	 { (char *)"symbol_timing_signal_sptr_set_thread_priority", (PyCFunction) _wrap_symbol_timing_signal_sptr_set_thread_priority, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_set_thread_priority(symbol_timing_signal_sptr self, int priority) -> int"},
+	 { (char *)"symbol_timing_signal_sptr_name", _wrap_symbol_timing_signal_sptr_name, METH_VARARGS, (char *)"symbol_timing_signal_sptr_name(symbol_timing_signal_sptr self) -> std::string"},
+	 { (char *)"symbol_timing_signal_sptr_symbol_name", _wrap_symbol_timing_signal_sptr_symbol_name, METH_VARARGS, (char *)"symbol_timing_signal_sptr_symbol_name(symbol_timing_signal_sptr self) -> std::string"},
+	 { (char *)"symbol_timing_signal_sptr_input_signature", _wrap_symbol_timing_signal_sptr_input_signature, METH_VARARGS, (char *)"symbol_timing_signal_sptr_input_signature(symbol_timing_signal_sptr self) -> io_signature_sptr"},
+	 { (char *)"symbol_timing_signal_sptr_output_signature", _wrap_symbol_timing_signal_sptr_output_signature, METH_VARARGS, (char *)"symbol_timing_signal_sptr_output_signature(symbol_timing_signal_sptr self) -> io_signature_sptr"},
+	 { (char *)"symbol_timing_signal_sptr_unique_id", _wrap_symbol_timing_signal_sptr_unique_id, METH_VARARGS, (char *)"symbol_timing_signal_sptr_unique_id(symbol_timing_signal_sptr self) -> long"},
+	 { (char *)"symbol_timing_signal_sptr_to_basic_block", _wrap_symbol_timing_signal_sptr_to_basic_block, METH_VARARGS, (char *)"symbol_timing_signal_sptr_to_basic_block(symbol_timing_signal_sptr self) -> basic_block_sptr"},
+	 { (char *)"symbol_timing_signal_sptr_check_topology", (PyCFunction) _wrap_symbol_timing_signal_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_check_topology(symbol_timing_signal_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"symbol_timing_signal_sptr_alias", _wrap_symbol_timing_signal_sptr_alias, METH_VARARGS, (char *)"symbol_timing_signal_sptr_alias(symbol_timing_signal_sptr self) -> std::string"},
+	 { (char *)"symbol_timing_signal_sptr_set_block_alias", (PyCFunction) _wrap_symbol_timing_signal_sptr_set_block_alias, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_set_block_alias(symbol_timing_signal_sptr self, std::string name)"},
+	 { (char *)"symbol_timing_signal_sptr__post", (PyCFunction) _wrap_symbol_timing_signal_sptr__post, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr__post(symbol_timing_signal_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"},
+	 { (char *)"symbol_timing_signal_sptr_message_ports_in", _wrap_symbol_timing_signal_sptr_message_ports_in, METH_VARARGS, (char *)"symbol_timing_signal_sptr_message_ports_in(symbol_timing_signal_sptr self) -> swig_int_ptr"},
+	 { (char *)"symbol_timing_signal_sptr_message_ports_out", _wrap_symbol_timing_signal_sptr_message_ports_out, METH_VARARGS, (char *)"symbol_timing_signal_sptr_message_ports_out(symbol_timing_signal_sptr self) -> swig_int_ptr"},
+	 { (char *)"symbol_timing_signal_sptr_message_subscribers", (PyCFunction) _wrap_symbol_timing_signal_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"symbol_timing_signal_sptr_message_subscribers(symbol_timing_signal_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
+	 { (char *)"symbol_timing_signal_sptr_swigregister", symbol_timing_signal_sptr_swigregister, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -8336,8 +14980,14 @@ static PyMethodDef SwigMethods[] = {
 static void *_p_gr__MFSK_demod__MFSK_demod2To_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *)  ((gr::MFSK_demod::MFSK_demod2 *) x));
 }
+static void *_p_gr__MFSK_demod__symbol_timing_signalTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::MFSK_demod::symbol_timing_signal *) x));
+}
 static void *_p_gr__sync_decimatorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *) (gr::sync_block *) ((gr::sync_decimator *) x));
+}
+static void *_p_gr__MFSK_demod__MFSK_demod3To_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *)  ((gr::MFSK_demod::MFSK_demod3 *) x));
 }
 static void *_p_gr__sync_blockTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *)  ((gr::sync_block *) x));
@@ -8354,11 +15004,17 @@ static void *_p_gr__sync_interpolatorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM
 static void *_p_gr__MFSK_demod__MFSK_demod2To_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *) (gr::block *) ((gr::MFSK_demod::MFSK_demod2 *) x));
 }
+static void *_p_gr__MFSK_demod__symbol_timing_signalTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::MFSK_demod::symbol_timing_signal *) x));
+}
 static void *_p_gr__blockTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *)  ((gr::block *) x));
 }
 static void *_p_gr__sync_decimatorTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::sync_decimator *) x));
+}
+static void *_p_gr__MFSK_demod__MFSK_demod3To_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *) ((gr::MFSK_demod::MFSK_demod3 *) x));
 }
 static void *_p_gr__hier_block2To_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *)  ((gr::hier_block2 *) x));
@@ -8378,9 +15034,20 @@ static void *_p_gr__sync_interpolatorTo_p_gr__basic_block(void *x, int *SWIGUNUS
 static void *_p_gr__top_blockTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *) (gr::hier_block2 *) ((gr::top_block *) x));
 }
+static void *_p_gr__MFSK_demod__symbol_timing_signalTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *)  ((gr::MFSK_demod::symbol_timing_signal *) x));
+}
+static void *_p_gr__sync_decimatorTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *)  ((gr::sync_decimator *) x));
+}
+static void *_p_gr__sync_interpolatorTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *)  ((gr::sync_interpolator *) x));
+}
 static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__intrusive_ptrT_pmt__pmt_base_t = {"_p_boost__intrusive_ptrT_pmt__pmt_base_t", "pmt::pmt_t *|boost::intrusive_ptr< pmt::pmt_base > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod2_t = {"_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod2_t", "gr::MFSK_demod::MFSK_demod2::sptr *|boost::shared_ptr< gr::MFSK_demod::MFSK_demod2 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t = {"_p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t", "gr::MFSK_demod::MFSK_demod3::sptr *|boost::shared_ptr< gr::MFSK_demod::MFSK_demod3 > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t = {"_p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t", "gr::MFSK_demod::symbol_timing_signal::sptr *|boost::shared_ptr< gr::MFSK_demod::symbol_timing_signal > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__basic_block_t = {"_p_boost__shared_ptrT_gr__basic_block_t", "boost::shared_ptr< gr::basic_block > *|gr::basic_block_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__block_detail_t = {"_p_boost__shared_ptrT_gr__block_detail_t", "boost::shared_ptr< gr::block_detail > *|gr::block_detail_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__block_t = {"_p_boost__shared_ptrT_gr__block_t", "boost::shared_ptr< gr::block > *|gr::block_sptr *", 0, 0, (void*)0, 0};
@@ -8395,9 +15062,10 @@ static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_const_reference = {"_p_const_reference", "const_reference *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "difference_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__MFSK_demod__MFSK_demod2 = {"_p_gr__MFSK_demod__MFSK_demod2", "gr::MFSK_demod::MFSK_demod2 *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__MFSK_demod__MFSK_demod3 = {"_p_gr__MFSK_demod__MFSK_demod3", "gr::MFSK_demod::MFSK_demod3 *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__MFSK_demod__symbol_timing_signal = {"_p_gr__MFSK_demod__symbol_timing_signal", "gr::MFSK_demod::symbol_timing_signal *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__basic_block = {"_p_gr__basic_block", "gr::basic_block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__sync_decimator = {"_p_gr__sync_decimator", 0, 0, 0, 0, 0};
-static swig_type_info _swigt__p_gr__sync_block = {"_p_gr__sync_block", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr__tagged_stream_block = {"_p_gr__tagged_stream_block", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr__block_gateway = {"_p_gr__block_gateway", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr__hier_block2 = {"_p_gr__hier_block2", 0, 0, 0, 0, 0};
@@ -8406,6 +15074,7 @@ static swig_type_info _swigt__p_gr__top_block = {"_p_gr__top_block", 0, 0, 0, 0,
 static swig_type_info _swigt__p_gr__block = {"_p_gr__block", "gr::block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__endianness_t = {"_p_gr__endianness_t", "enum gr::endianness_t *|gr::endianness_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__rt_status_t = {"_p_gr__rt_status_t", "enum gr::rt_status_t *|gr::rt_status_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__sync_block = {"_p_gr__sync_block", "gr::sync_block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int = {"_p_int", "intptr_t *|int *|int_least32_t *|int_fast32_t *|int32_t *|int_fast16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_long_long = {"_p_long_long", "gr::high_res_timer_type *|int_least64_t *|int_fast64_t *|int64_t *|long long *|intmax_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_reference = {"_p_reference", "reference *", 0, 0, (void*)0, 0};
@@ -8425,6 +15094,8 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_allocator_type,
   &_swigt__p_boost__intrusive_ptrT_pmt__pmt_base_t,
   &_swigt__p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod2_t,
+  &_swigt__p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t,
+  &_swigt__p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t,
   &_swigt__p_boost__shared_ptrT_gr__basic_block_t,
   &_swigt__p_boost__shared_ptrT_gr__block_detail_t,
   &_swigt__p_boost__shared_ptrT_gr__block_t,
@@ -8439,6 +15110,8 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_const_reference,
   &_swigt__p_difference_type,
   &_swigt__p_gr__MFSK_demod__MFSK_demod2,
+  &_swigt__p_gr__MFSK_demod__MFSK_demod3,
+  &_swigt__p_gr__MFSK_demod__symbol_timing_signal,
   &_swigt__p_gr__basic_block,
   &_swigt__p_gr__block,
   &_swigt__p_gr__block_gateway,
@@ -8469,6 +15142,8 @@ static swig_type_info *swig_type_initial[] = {
 static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__intrusive_ptrT_pmt__pmt_base_t[] = {  {&_swigt__p_boost__intrusive_ptrT_pmt__pmt_base_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod2_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod2_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__basic_block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__basic_block_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__block_detail_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__block_detail_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__block_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -8483,17 +15158,19 @@ static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0,
 static swig_cast_info _swigc__p_const_reference[] = {  {&_swigt__p_const_reference, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__MFSK_demod__MFSK_demod2[] = {  {&_swigt__p_gr__MFSK_demod__MFSK_demod2, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__MFSK_demod__MFSK_demod3[] = {  {&_swigt__p_gr__MFSK_demod__MFSK_demod3, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__MFSK_demod__symbol_timing_signal[] = {  {&_swigt__p_gr__MFSK_demod__symbol_timing_signal, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__sync_decimator[] = {{&_swigt__p_gr__sync_decimator, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__sync_block[] = {{&_swigt__p_gr__sync_block, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__tagged_stream_block[] = {{&_swigt__p_gr__tagged_stream_block, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__block_gateway[] = {{&_swigt__p_gr__block_gateway, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__hier_block2[] = {{&_swigt__p_gr__hier_block2, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__sync_interpolator[] = {{&_swigt__p_gr__sync_interpolator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__top_block[] = {{&_swigt__p_gr__top_block, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__basic_block[] = {  {&_swigt__p_gr__MFSK_demod__MFSK_demod2, _p_gr__MFSK_demod__MFSK_demod2To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__basic_block, 0, 0, 0},  {&_swigt__p_gr__block, _p_gr__blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__hier_block2, _p_gr__hier_block2To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__top_block, _p_gr__top_blockTo_p_gr__basic_block, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__block[] = {  {&_swigt__p_gr__MFSK_demod__MFSK_demod2, _p_gr__MFSK_demod__MFSK_demod2To_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block, 0, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__basic_block[] = {  {&_swigt__p_gr__MFSK_demod__MFSK_demod2, _p_gr__MFSK_demod__MFSK_demod2To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__MFSK_demod__symbol_timing_signal, _p_gr__MFSK_demod__symbol_timing_signalTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__MFSK_demod__MFSK_demod3, _p_gr__MFSK_demod__MFSK_demod3To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__basic_block, 0, 0, 0},  {&_swigt__p_gr__block, _p_gr__blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__hier_block2, _p_gr__hier_block2To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__top_block, _p_gr__top_blockTo_p_gr__basic_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__block[] = {  {&_swigt__p_gr__MFSK_demod__MFSK_demod2, _p_gr__MFSK_demod__MFSK_demod2To_p_gr__block, 0, 0},  {&_swigt__p_gr__MFSK_demod__symbol_timing_signal, _p_gr__MFSK_demod__symbol_timing_signalTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__MFSK_demod__MFSK_demod3, _p_gr__MFSK_demod__MFSK_demod3To_p_gr__block, 0, 0},  {&_swigt__p_gr__block, 0, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__endianness_t[] = {  {&_swigt__p_gr__endianness_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__rt_status_t[] = {  {&_swigt__p_gr__rt_status_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__sync_block[] = {  {&_swigt__p_gr__MFSK_demod__symbol_timing_signal, _p_gr__MFSK_demod__symbol_timing_signalTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_block, 0, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__sync_block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_reference[] = {  {&_swigt__p_reference, 0, 0, 0},{0, 0, 0, 0}};
@@ -8513,6 +15190,8 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_allocator_type,
   _swigc__p_boost__intrusive_ptrT_pmt__pmt_base_t,
   _swigc__p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod2_t,
+  _swigc__p_boost__shared_ptrT_gr__MFSK_demod__MFSK_demod3_t,
+  _swigc__p_boost__shared_ptrT_gr__MFSK_demod__symbol_timing_signal_t,
   _swigc__p_boost__shared_ptrT_gr__basic_block_t,
   _swigc__p_boost__shared_ptrT_gr__block_detail_t,
   _swigc__p_boost__shared_ptrT_gr__block_t,
@@ -8527,6 +15206,8 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_const_reference,
   _swigc__p_difference_type,
   _swigc__p_gr__MFSK_demod__MFSK_demod2,
+  _swigc__p_gr__MFSK_demod__MFSK_demod3,
+  _swigc__p_gr__MFSK_demod__symbol_timing_signal,
   _swigc__p_gr__basic_block,
   _swigc__p_gr__block,
   _swigc__p_gr__block_gateway,

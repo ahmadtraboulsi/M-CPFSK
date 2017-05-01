@@ -116,7 +116,7 @@ def high_res_timer_epoch():
     """high_res_timer_epoch() -> gr::high_res_timer_type"""
     return _MFSK_demod_swig.high_res_timer_epoch()
 class MFSK_demod2(object):
-    """Proxy of C++ gr::MFSK_demod::MFSK_demod2 class"""
+    """<+description of block+>"""
     thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
 
     def __init__(self, *args, **kwargs):
@@ -124,7 +124,15 @@ class MFSK_demod2(object):
     __repr__ = _swig_repr
 
     def make(k, m, samples_per_symbol):
-        """make(float k, int m, int samples_per_symbol) -> MFSK_demod2_sptr"""
+        """
+        make(float k, int m, int samples_per_symbol) -> MFSK_demod2_sptr
+
+        Return a shared_ptr to a new instance of MFSK_demod::MFSK_demod2.
+
+        To avoid accidental use of raw pointers, MFSK_demod::MFSK_demod2's constructor is in a private implementation class. MFSK_demod::MFSK_demod2::make is the public interface for creating new instances.
+
+        Params: (k, m, samples_per_symbol)
+        """
         return _MFSK_demod_swig.MFSK_demod2_make(k, m, samples_per_symbol)
 
     make = staticmethod(make)
@@ -134,7 +142,15 @@ MFSK_demod2_swigregister = _MFSK_demod_swig.MFSK_demod2_swigregister
 MFSK_demod2_swigregister(MFSK_demod2)
 
 def MFSK_demod2_make(k, m, samples_per_symbol):
-    """MFSK_demod2_make(float k, int m, int samples_per_symbol) -> MFSK_demod2_sptr"""
+    """
+    MFSK_demod2_make(float k, int m, int samples_per_symbol) -> MFSK_demod2_sptr
+
+    Return a shared_ptr to a new instance of MFSK_demod::MFSK_demod2.
+
+    To avoid accidental use of raw pointers, MFSK_demod::MFSK_demod2's constructor is in a private implementation class. MFSK_demod::MFSK_demod2::make is the public interface for creating new instances.
+
+    Params: (k, m, samples_per_symbol)
+    """
     return _MFSK_demod_swig.MFSK_demod2_make(k, m, samples_per_symbol)
 
 class MFSK_demod2_sptr(object):
@@ -161,7 +177,15 @@ class MFSK_demod2_sptr(object):
     __del__ = lambda self: None
 
     def make(self, k, m, samples_per_symbol):
-        """make(MFSK_demod2_sptr self, float k, int m, int samples_per_symbol) -> MFSK_demod2_sptr"""
+        """
+        make(MFSK_demod2_sptr self, float k, int m, int samples_per_symbol) -> MFSK_demod2_sptr
+
+        Return a shared_ptr to a new instance of MFSK_demod::MFSK_demod2.
+
+        To avoid accidental use of raw pointers, MFSK_demod::MFSK_demod2's constructor is in a private implementation class. MFSK_demod::MFSK_demod2::make is the public interface for creating new instances.
+
+        Params: (k, m, samples_per_symbol)
+        """
         return _MFSK_demod_swig.MFSK_demod2_sptr_make(self, k, m, samples_per_symbol)
 
 
@@ -472,6 +496,746 @@ MFSK_demod2_sptr_swigregister(MFSK_demod2_sptr)
 
 MFSK_demod2_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
 MFSK_demod2 = MFSK_demod2.make;
+
+class MFSK_demod3(object):
+    """<+description of block+>"""
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+
+    def make(k, m, samples_per_symbol):
+        """
+        make(float k, int m, int samples_per_symbol) -> MFSK_demod3_sptr
+
+        Return a shared_ptr to a new instance of MFSK_demod::MFSK_demod3.
+
+        To avoid accidental use of raw pointers, MFSK_demod::MFSK_demod3's constructor is in a private implementation class. MFSK_demod::MFSK_demod3::make is the public interface for creating new instances.
+
+        Params: (k, m, samples_per_symbol)
+        """
+        return _MFSK_demod_swig.MFSK_demod3_make(k, m, samples_per_symbol)
+
+    make = staticmethod(make)
+    __swig_destroy__ = _MFSK_demod_swig.delete_MFSK_demod3
+    __del__ = lambda self: None
+MFSK_demod3_swigregister = _MFSK_demod_swig.MFSK_demod3_swigregister
+MFSK_demod3_swigregister(MFSK_demod3)
+
+def MFSK_demod3_make(k, m, samples_per_symbol):
+    """
+    MFSK_demod3_make(float k, int m, int samples_per_symbol) -> MFSK_demod3_sptr
+
+    Return a shared_ptr to a new instance of MFSK_demod::MFSK_demod3.
+
+    To avoid accidental use of raw pointers, MFSK_demod::MFSK_demod3's constructor is in a private implementation class. MFSK_demod::MFSK_demod3::make is the public interface for creating new instances.
+
+    Params: (k, m, samples_per_symbol)
+    """
+    return _MFSK_demod_swig.MFSK_demod3_make(k, m, samples_per_symbol)
+
+class MFSK_demod3_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::MFSK_demod::MFSK_demod3)> class"""
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::MFSK_demod::MFSK_demod3)> self) -> MFSK_demod3_sptr
+        __init__(boost::shared_ptr<(gr::MFSK_demod::MFSK_demod3)> self, MFSK_demod3 p) -> MFSK_demod3_sptr
+        """
+        this = _MFSK_demod_swig.new_MFSK_demod3_sptr(*args)
+        try:
+            self.this.append(this)
+        except:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(MFSK_demod3_sptr self) -> MFSK_demod3"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr___deref__(self)
+
+    __swig_destroy__ = _MFSK_demod_swig.delete_MFSK_demod3_sptr
+    __del__ = lambda self: None
+
+    def make(self, k, m, samples_per_symbol):
+        """
+        make(MFSK_demod3_sptr self, float k, int m, int samples_per_symbol) -> MFSK_demod3_sptr
+
+        Return a shared_ptr to a new instance of MFSK_demod::MFSK_demod3.
+
+        To avoid accidental use of raw pointers, MFSK_demod::MFSK_demod3's constructor is in a private implementation class. MFSK_demod::MFSK_demod3::make is the public interface for creating new instances.
+
+        Params: (k, m, samples_per_symbol)
+        """
+        return _MFSK_demod_swig.MFSK_demod3_sptr_make(self, k, m, samples_per_symbol)
+
+
+    def history(self):
+        """history(MFSK_demod3_sptr self) -> unsigned int"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(MFSK_demod3_sptr self, int which, int delay)
+        declare_sample_delay(MFSK_demod3_sptr self, unsigned int delay)
+        """
+        return _MFSK_demod_swig.MFSK_demod3_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(MFSK_demod3_sptr self, int which) -> unsigned int"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(MFSK_demod3_sptr self) -> int"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(MFSK_demod3_sptr self) -> double"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(MFSK_demod3_sptr self) -> bool"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_start(self)
+
+
+    def stop(self):
+        """stop(MFSK_demod3_sptr self) -> bool"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(MFSK_demod3_sptr self, unsigned int which_input) -> uint64_t"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(MFSK_demod3_sptr self, unsigned int which_output) -> uint64_t"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(MFSK_demod3_sptr self) -> int"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(MFSK_demod3_sptr self, int m)"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(MFSK_demod3_sptr self)"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(MFSK_demod3_sptr self) -> bool"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(MFSK_demod3_sptr self, int m)"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(MFSK_demod3_sptr self) -> int"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(MFSK_demod3_sptr self, int i) -> long"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(MFSK_demod3_sptr self, long max_output_buffer)
+        set_max_output_buffer(MFSK_demod3_sptr self, int port, long max_output_buffer)
+        """
+        return _MFSK_demod_swig.MFSK_demod3_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(MFSK_demod3_sptr self, int i) -> long"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(MFSK_demod3_sptr self, long min_output_buffer)
+        set_min_output_buffer(MFSK_demod3_sptr self, int port, long min_output_buffer)
+        """
+        return _MFSK_demod_swig.MFSK_demod3_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(MFSK_demod3_sptr self, int which) -> float
+        pc_input_buffers_full(MFSK_demod3_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(MFSK_demod3_sptr self, int which) -> float
+        pc_input_buffers_full_avg(MFSK_demod3_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(MFSK_demod3_sptr self, int which) -> float
+        pc_input_buffers_full_var(MFSK_demod3_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(MFSK_demod3_sptr self, int which) -> float
+        pc_output_buffers_full(MFSK_demod3_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(MFSK_demod3_sptr self, int which) -> float
+        pc_output_buffers_full_avg(MFSK_demod3_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(MFSK_demod3_sptr self, int which) -> float
+        pc_output_buffers_full_var(MFSK_demod3_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(MFSK_demod3_sptr self) -> float"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(MFSK_demod3_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(MFSK_demod3_sptr self)"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(MFSK_demod3_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(MFSK_demod3_sptr self) -> int"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(MFSK_demod3_sptr self) -> int"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(MFSK_demod3_sptr self, int priority) -> int"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(MFSK_demod3_sptr self) -> std::string"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(MFSK_demod3_sptr self) -> std::string"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(MFSK_demod3_sptr self) -> io_signature_sptr"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(MFSK_demod3_sptr self) -> io_signature_sptr"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(MFSK_demod3_sptr self) -> long"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(MFSK_demod3_sptr self) -> basic_block_sptr"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(MFSK_demod3_sptr self, int ninputs, int noutputs) -> bool"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(MFSK_demod3_sptr self) -> std::string"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(MFSK_demod3_sptr self, std::string name)"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(MFSK_demod3_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(MFSK_demod3_sptr self) -> swig_int_ptr"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(MFSK_demod3_sptr self) -> swig_int_ptr"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(MFSK_demod3_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _MFSK_demod_swig.MFSK_demod3_sptr_message_subscribers(self, which_port)
+
+MFSK_demod3_sptr_swigregister = _MFSK_demod_swig.MFSK_demod3_sptr_swigregister
+MFSK_demod3_sptr_swigregister(MFSK_demod3_sptr)
+
+
+MFSK_demod3_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+MFSK_demod3 = MFSK_demod3.make;
+
+class symbol_timing_signal(object):
+    """Proxy of C++ gr::MFSK_demod::symbol_timing_signal class"""
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+
+    def make(k, m, sampples_per_symbol):
+        """make(float k, int m, int sampples_per_symbol) -> symbol_timing_signal_sptr"""
+        return _MFSK_demod_swig.symbol_timing_signal_make(k, m, sampples_per_symbol)
+
+    make = staticmethod(make)
+    __swig_destroy__ = _MFSK_demod_swig.delete_symbol_timing_signal
+    __del__ = lambda self: None
+symbol_timing_signal_swigregister = _MFSK_demod_swig.symbol_timing_signal_swigregister
+symbol_timing_signal_swigregister(symbol_timing_signal)
+
+def symbol_timing_signal_make(k, m, sampples_per_symbol):
+    """symbol_timing_signal_make(float k, int m, int sampples_per_symbol) -> symbol_timing_signal_sptr"""
+    return _MFSK_demod_swig.symbol_timing_signal_make(k, m, sampples_per_symbol)
+
+class symbol_timing_signal_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::MFSK_demod::symbol_timing_signal)> class"""
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::MFSK_demod::symbol_timing_signal)> self) -> symbol_timing_signal_sptr
+        __init__(boost::shared_ptr<(gr::MFSK_demod::symbol_timing_signal)> self, symbol_timing_signal p) -> symbol_timing_signal_sptr
+        """
+        this = _MFSK_demod_swig.new_symbol_timing_signal_sptr(*args)
+        try:
+            self.this.append(this)
+        except:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(symbol_timing_signal_sptr self) -> symbol_timing_signal"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr___deref__(self)
+
+    __swig_destroy__ = _MFSK_demod_swig.delete_symbol_timing_signal_sptr
+    __del__ = lambda self: None
+
+    def make(self, k, m, sampples_per_symbol):
+        """make(symbol_timing_signal_sptr self, float k, int m, int sampples_per_symbol) -> symbol_timing_signal_sptr"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_make(self, k, m, sampples_per_symbol)
+
+
+    def history(self):
+        """history(symbol_timing_signal_sptr self) -> unsigned int"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(symbol_timing_signal_sptr self, int which, int delay)
+        declare_sample_delay(symbol_timing_signal_sptr self, unsigned int delay)
+        """
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(symbol_timing_signal_sptr self, int which) -> unsigned int"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(symbol_timing_signal_sptr self) -> int"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(symbol_timing_signal_sptr self) -> double"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(symbol_timing_signal_sptr self) -> bool"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_start(self)
+
+
+    def stop(self):
+        """stop(symbol_timing_signal_sptr self) -> bool"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(symbol_timing_signal_sptr self, unsigned int which_input) -> uint64_t"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(symbol_timing_signal_sptr self, unsigned int which_output) -> uint64_t"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(symbol_timing_signal_sptr self) -> int"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(symbol_timing_signal_sptr self, int m)"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(symbol_timing_signal_sptr self)"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(symbol_timing_signal_sptr self) -> bool"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(symbol_timing_signal_sptr self, int m)"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(symbol_timing_signal_sptr self) -> int"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(symbol_timing_signal_sptr self, int i) -> long"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(symbol_timing_signal_sptr self, long max_output_buffer)
+        set_max_output_buffer(symbol_timing_signal_sptr self, int port, long max_output_buffer)
+        """
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(symbol_timing_signal_sptr self, int i) -> long"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(symbol_timing_signal_sptr self, long min_output_buffer)
+        set_min_output_buffer(symbol_timing_signal_sptr self, int port, long min_output_buffer)
+        """
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(symbol_timing_signal_sptr self, int which) -> float
+        pc_input_buffers_full(symbol_timing_signal_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(symbol_timing_signal_sptr self, int which) -> float
+        pc_input_buffers_full_avg(symbol_timing_signal_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(symbol_timing_signal_sptr self, int which) -> float
+        pc_input_buffers_full_var(symbol_timing_signal_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(symbol_timing_signal_sptr self, int which) -> float
+        pc_output_buffers_full(symbol_timing_signal_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(symbol_timing_signal_sptr self, int which) -> float
+        pc_output_buffers_full_avg(symbol_timing_signal_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(symbol_timing_signal_sptr self, int which) -> float
+        pc_output_buffers_full_var(symbol_timing_signal_sptr self) -> pmt_vector_float
+        """
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(symbol_timing_signal_sptr self) -> float"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(symbol_timing_signal_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(symbol_timing_signal_sptr self)"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(symbol_timing_signal_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(symbol_timing_signal_sptr self) -> int"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(symbol_timing_signal_sptr self) -> int"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(symbol_timing_signal_sptr self, int priority) -> int"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(symbol_timing_signal_sptr self) -> std::string"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(symbol_timing_signal_sptr self) -> std::string"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(symbol_timing_signal_sptr self) -> io_signature_sptr"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(symbol_timing_signal_sptr self) -> io_signature_sptr"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(symbol_timing_signal_sptr self) -> long"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(symbol_timing_signal_sptr self) -> basic_block_sptr"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(symbol_timing_signal_sptr self, int ninputs, int noutputs) -> bool"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(symbol_timing_signal_sptr self) -> std::string"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(symbol_timing_signal_sptr self, std::string name)"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(symbol_timing_signal_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(symbol_timing_signal_sptr self) -> swig_int_ptr"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(symbol_timing_signal_sptr self) -> swig_int_ptr"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(symbol_timing_signal_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _MFSK_demod_swig.symbol_timing_signal_sptr_message_subscribers(self, which_port)
+
+symbol_timing_signal_sptr_swigregister = _MFSK_demod_swig.symbol_timing_signal_sptr_swigregister
+symbol_timing_signal_sptr_swigregister(symbol_timing_signal_sptr)
+
+
+symbol_timing_signal_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+symbol_timing_signal = symbol_timing_signal.make;
 
 
 

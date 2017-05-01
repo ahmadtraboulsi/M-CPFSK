@@ -81,21 +81,73 @@ lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod2_impl.cc.o.provides: lib/CMake
 lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod2_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod2_impl.cc.o
 
 
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o: lib/CMakeFiles/gnuradio-MFSK_demod.dir/flags.make
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o: ../lib/MFSK_demod3_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o"
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/lib && /usr/bin/llvm-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o -c /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.cc
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.i"
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/lib && /usr/bin/llvm-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.cc > CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.i
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.s"
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/lib && /usr/bin/llvm-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.cc -o CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.s
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o.requires:
+
+.PHONY : lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o.requires
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o.provides: lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-MFSK_demod.dir/build.make lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o.provides
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o
+
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o: lib/CMakeFiles/gnuradio-MFSK_demod.dir/flags.make
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o: ../lib/symbol_timing_signal_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o"
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/lib && /usr/bin/llvm-g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o -c /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/symbol_timing_signal_impl.cc
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.i"
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/lib && /usr/bin/llvm-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/symbol_timing_signal_impl.cc > CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.i
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.s"
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/lib && /usr/bin/llvm-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/symbol_timing_signal_impl.cc -o CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.s
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o.requires:
+
+.PHONY : lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o.requires
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o.provides: lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-MFSK_demod.dir/build.make lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o.provides
+
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o
+
+
 # Object files for target gnuradio-MFSK_demod
 gnuradio__MFSK_demod_OBJECTS = \
-"CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod2_impl.cc.o"
+"CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod2_impl.cc.o" \
+"CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o" \
+"CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o"
 
 # External object files for target gnuradio-MFSK_demod
 gnuradio__MFSK_demod_EXTERNAL_OBJECTS =
 
 lib/libgnuradio-MFSK_demod.dylib: lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod2_impl.cc.o
+lib/libgnuradio-MFSK_demod.dylib: lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o
+lib/libgnuradio-MFSK_demod.dylib: lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o
 lib/libgnuradio-MFSK_demod.dylib: lib/CMakeFiles/gnuradio-MFSK_demod.dir/build.make
 lib/libgnuradio-MFSK_demod.dylib: /opt/local/lib/libboost_filesystem-mt.dylib
 lib/libgnuradio-MFSK_demod.dylib: /opt/local/lib/libboost_system-mt.dylib
 lib/libgnuradio-MFSK_demod.dylib: /opt/local/lib/libgnuradio-runtime.dylib
 lib/libgnuradio-MFSK_demod.dylib: /opt/local/lib/libgnuradio-pmt.dylib
 lib/libgnuradio-MFSK_demod.dylib: lib/CMakeFiles/gnuradio-MFSK_demod.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libgnuradio-MFSK_demod.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libgnuradio-MFSK_demod.dylib"
 	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-MFSK_demod.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -104,6 +156,8 @@ lib/CMakeFiles/gnuradio-MFSK_demod.dir/build: lib/libgnuradio-MFSK_demod.dylib
 .PHONY : lib/CMakeFiles/gnuradio-MFSK_demod.dir/build
 
 lib/CMakeFiles/gnuradio-MFSK_demod.dir/requires: lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod2_impl.cc.o.requires
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/requires: lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o.requires
+lib/CMakeFiles/gnuradio-MFSK_demod.dir/requires: lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o.requires
 
 .PHONY : lib/CMakeFiles/gnuradio-MFSK_demod.dir/requires
 

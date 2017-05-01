@@ -12,8 +12,20 @@ MFSK_demod/api.h
 gnuradio/block.h
 -
 
+../include/MFSK_demod/MFSK_demod3.h
+MFSK_demod/api.h
+-
+gnuradio/block.h
+-
+
 ../include/MFSK_demod/api.h
 gnuradio/attributes.h
+-
+
+../include/MFSK_demod/symbol_timing_signal.h
+MFSK_demod/api.h
+-
+gnuradio/sync_block.h
 -
 
 /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/swig/MFSK_demod_swigPYTHON_wrap.cxx
@@ -63,6 +75,10 @@ limits.h
 -
 MFSK_demod/MFSK_demod2.h
 /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/swig/MFSK_demod/MFSK_demod2.h
+MFSK_demod/MFSK_demod3.h
+/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/swig/MFSK_demod/MFSK_demod3.h
+MFSK_demod/symbol_timing_signal.h
+/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build/swig/MFSK_demod/symbol_timing_signal.h
 float.h
 -
 math.h

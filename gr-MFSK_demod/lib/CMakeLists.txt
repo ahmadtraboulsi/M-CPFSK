@@ -26,7 +26,8 @@ include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
 list(APPEND MFSK_demod_sources
     MFSK_demod2_impl.cc
-)
+    MFSK_demod3_impl.cc
+    symbol_timing_signal_impl.cc )
 
 set(MFSK_demod_sources "${MFSK_demod_sources}" PARENT_SCOPE)
 if(NOT MFSK_demod_sources)

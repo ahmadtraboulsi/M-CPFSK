@@ -222,6 +222,33 @@ MFSK_demod2_impl.cc.s:
 	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-MFSK_demod.dir/build.make lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod2_impl.cc.s
 .PHONY : MFSK_demod2_impl.cc.s
 
+MFSK_demod3_impl.o: MFSK_demod3_impl.cc.o
+
+.PHONY : MFSK_demod3_impl.o
+
+# target to build an object file
+MFSK_demod3_impl.cc.o:
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-MFSK_demod.dir/build.make lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.o
+.PHONY : MFSK_demod3_impl.cc.o
+
+MFSK_demod3_impl.i: MFSK_demod3_impl.cc.i
+
+.PHONY : MFSK_demod3_impl.i
+
+# target to preprocess a source file
+MFSK_demod3_impl.cc.i:
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-MFSK_demod.dir/build.make lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.i
+.PHONY : MFSK_demod3_impl.cc.i
+
+MFSK_demod3_impl.s: MFSK_demod3_impl.cc.s
+
+.PHONY : MFSK_demod3_impl.s
+
+# target to generate assembly for a file
+MFSK_demod3_impl.cc.s:
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-MFSK_demod.dir/build.make lib/CMakeFiles/gnuradio-MFSK_demod.dir/MFSK_demod3_impl.cc.s
+.PHONY : MFSK_demod3_impl.cc.s
+
 qa_MFSK_demod.o: qa_MFSK_demod.cc.o
 
 .PHONY : qa_MFSK_demod.o
@@ -248,6 +275,33 @@ qa_MFSK_demod.s: qa_MFSK_demod.cc.s
 qa_MFSK_demod.cc.s:
 	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build && $(MAKE) -f lib/CMakeFiles/test-MFSK_demod.dir/build.make lib/CMakeFiles/test-MFSK_demod.dir/qa_MFSK_demod.cc.s
 .PHONY : qa_MFSK_demod.cc.s
+
+symbol_timing_signal_impl.o: symbol_timing_signal_impl.cc.o
+
+.PHONY : symbol_timing_signal_impl.o
+
+# target to build an object file
+symbol_timing_signal_impl.cc.o:
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-MFSK_demod.dir/build.make lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.o
+.PHONY : symbol_timing_signal_impl.cc.o
+
+symbol_timing_signal_impl.i: symbol_timing_signal_impl.cc.i
+
+.PHONY : symbol_timing_signal_impl.i
+
+# target to preprocess a source file
+symbol_timing_signal_impl.cc.i:
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-MFSK_demod.dir/build.make lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.i
+.PHONY : symbol_timing_signal_impl.cc.i
+
+symbol_timing_signal_impl.s: symbol_timing_signal_impl.cc.s
+
+.PHONY : symbol_timing_signal_impl.s
+
+# target to generate assembly for a file
+symbol_timing_signal_impl.cc.s:
+	cd /Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/build && $(MAKE) -f lib/CMakeFiles/gnuradio-MFSK_demod.dir/build.make lib/CMakeFiles/gnuradio-MFSK_demod.dir/symbol_timing_signal_impl.cc.s
+.PHONY : symbol_timing_signal_impl.cc.s
 
 test_MFSK_demod.o: test_MFSK_demod.cc.o
 
@@ -294,9 +348,15 @@ help:
 	@echo "... MFSK_demod2_impl.o"
 	@echo "... MFSK_demod2_impl.i"
 	@echo "... MFSK_demod2_impl.s"
+	@echo "... MFSK_demod3_impl.o"
+	@echo "... MFSK_demod3_impl.i"
+	@echo "... MFSK_demod3_impl.s"
 	@echo "... qa_MFSK_demod.o"
 	@echo "... qa_MFSK_demod.i"
 	@echo "... qa_MFSK_demod.s"
+	@echo "... symbol_timing_signal_impl.o"
+	@echo "... symbol_timing_signal_impl.i"
+	@echo "... symbol_timing_signal_impl.s"
 	@echo "... test_MFSK_demod.o"
 	@echo "... test_MFSK_demod.i"
 	@echo "... test_MFSK_demod.s"

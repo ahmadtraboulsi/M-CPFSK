@@ -25,7 +25,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"MFSKdemod_8h.html"
+"MFSK__demod2_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

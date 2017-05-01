@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<block>
+  <name>symbol_timing_signal</name>
+  <key>MFSK_demod_symbol_timing_signal</key>
+  <category>MFSK_demod</category>
+  <import>import MFSK_demod</import>
+  <make>MFSK_demod.symbol_timing_signal($k, $m, $sampples_per_symbol)</make>
+ 
+ 
+ <param>
+     <name>Modulation_index</name>
+     <key>k</key>
+     <type>real</type>
+ </param>
+ 
+ <param>
+     <name>M-value</name>
+     <key>m</key>
+     <type>int</type>
+ </param>
+ 
+ <param>
+     <name>Samples/Symbol</name>
+     <key>sampples_per_symbol</key>
+     <type>int</type>
+ </param>
+ 
+  <sink>
+      <name>in</name>
+      <type>complex</type>
+  </sink>
+  
+  <source>
+      <name>out1</name>
+      <type>complex</type>
+      
+  </source>
+  <source>
+      <name>out2</name>
+      <type>float</type>
+  </source>
+</block>

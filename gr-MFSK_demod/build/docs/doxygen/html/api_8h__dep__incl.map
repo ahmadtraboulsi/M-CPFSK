@@ -1,4 +1,6 @@
 <map id="api.h" name="api.h">
-<area shape="rect" id="node2" href="$MFSKdemod_8h.html" title="MFSKdemod.h" alt="" coords="21,80,132,107"/>
-<area shape="rect" id="node3" href="$MFSKdemod__impl_8h.html" title="MFSKdemod_impl.h" alt="" coords="5,155,148,181"/>
+<area shape="rect" id="node2" href="$MFSK__demod2_8h.html" title="MFSK_demod2.h" alt="" coords="29,80,155,107"/>
+<area shape="rect" id="node4" href="$MFSK__demod3_8h.html" title="MFSK_demod3.h" alt="" coords="195,80,320,107"/>
+<area shape="rect" id="node3" href="$MFSK__demod2__impl_8h.html" title="MFSK_demod2_impl.h" alt="" coords="5,155,163,181"/>
+<area shape="rect" id="node5" href="$MFSK__demod3__impl_8h.html" title="MFSK_demod3_impl.h" alt="" coords="187,155,344,181"/>
 </map>

@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::MFSK_demod::MFSK_demod3_impl</compoundname>
+    <basecompoundref refid="classgr_1_1MFSK__demod_1_1MFSK__demod3" prot="public" virt="non-virtual">gr::MFSK_demod::MFSK_demod3</basecompoundref>
+    <includes refid="MFSK__demod3__impl_8h" local="no">MFSK_demod3_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1afa019e8b5201e5baf010af0abac222f5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::MFSK_demod::MFSK_demod3_impl::samp_sym</definition>
+        <argsstring></argsstring>
+        <name>samp_sym</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="40" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a4d309e3ffc892e9518d704f8695eba89" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::MFSK_demod::MFSK_demod3_impl::nck</definition>
+        <argsstring></argsstring>
+        <name>nck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="41" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a9d621f14c01afa4f9dba8e0f7c8ceb1c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::MFSK_demod::MFSK_demod3_impl::d_offset</definition>
+        <argsstring></argsstring>
+        <name>d_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="42" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1acd6c9fc757a839b3e9689135851da1df" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::MFSK_demod::MFSK_demod3_impl::d_m</definition>
+        <argsstring></argsstring>
+        <name>d_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="43" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a1ef75520f0d4c887a72adbee59bd47e6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::MFSK_demod::MFSK_demod3_impl::d_k</definition>
+        <argsstring></argsstring>
+        <name>d_k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="44" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a01633c69795b077ee235b7410606a309" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::MFSK_demod::MFSK_demod3_impl::sum</definition>
+        <argsstring></argsstring>
+        <name>sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="45" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a06920f80ef8e645941c2c19affe34f3d" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::MFSK_demod::MFSK_demod3_impl::Csum</definition>
+        <argsstring></argsstring>
+        <name>Csum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="46" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a8f02e73712c15a528bde39ab8c688844" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::MFSK_demod::MFSK_demod3_impl::jexp_i</definition>
+        <argsstring></argsstring>
+        <name>jexp_i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="47" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a9520793ff8201d113ee76b3d44473b47" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::MFSK_demod::MFSK_demod3_impl::squared_sum</definition>
+        <argsstring></argsstring>
+        <name>squared_sum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="48" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a5627215b14d894a746a3c297af0e5769" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; gr::MFSK_demod::MFSK_demod3_impl::combinations</definition>
+        <argsstring></argsstring>
+        <name>combinations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="49" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1aff4458c97154e74d1ad64f553fdbec4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::MFSK_demod::MFSK_demod3_impl::MFSK_demod3_impl</definition>
+        <argsstring>(float k, int m, int samples_per_symbol)</argsstring>
+        <name>MFSK_demod3_impl</name>
+        <param>
+          <type>float</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samples_per_symbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1aad0bccc50d15c2004b2bcbb86a76b620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::MFSK_demod::MFSK_demod3_impl::~MFSK_demod3_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~MFSK_demod3_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a176177eac22d05b46602cfa90e2da5b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::MFSK_demod::MFSK_demod3_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a3a3207b5fcff32a5ed5626786b2c94ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::MFSK_demod::MFSK_demod3_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="56" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="35">
+        <label>block</label>
+      </node>
+      <node id="33">
+        <label>gr::MFSK_demod::MFSK_demod3_impl</label>
+        <link refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>gr::MFSK_demod::MFSK_demod3</label>
+        <link refid="classgr_1_1MFSK__demod_1_1MFSK__demod3"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+      <node id="43">
+        <label>std::vector&lt; gr_complex &gt;</label>
+      </node>
+      <node id="42">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="38">
+        <label>block</label>
+      </node>
+      <node id="40">
+        <label>std::vector&lt; std::string &gt;</label>
+        <childnode refid="41" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="36">
+        <label>gr::MFSK_demod::MFSK_demod3_impl</label>
+        <link refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+        <childnode refid="39" relation="usage">
+          <edgelabel>squared_sum</edgelabel>
+        </childnode>
+        <childnode refid="40" relation="usage">
+          <edgelabel>combinations</edgelabel>
+        </childnode>
+        <childnode refid="43" relation="usage">
+          <edgelabel>sum</edgelabel>
+          <edgelabel>Csum</edgelabel>
+          <edgelabel>jexp_i</edgelabel>
+        </childnode>
+      </node>
+      <node id="37">
+        <label>gr::MFSK_demod::MFSK_demod3</label>
+        <link refid="classgr_1_1MFSK__demod_1_1MFSK__demod3"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>std::string</label>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" line="36" column="1" bodyfile="/Users/ahmadtrabousli/Desktop/blocks/MFSK/gr-MFSK_demod/lib/MFSK_demod3_impl.h" bodystart="35" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a5627215b14d894a746a3c297af0e5769" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>combinations</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a06920f80ef8e645941c2c19affe34f3d" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>Csum</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a1ef75520f0d4c887a72adbee59bd47e6" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>d_k</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1acd6c9fc757a839b3e9689135851da1df" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>d_m</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a9d621f14c01afa4f9dba8e0f7c8ceb1c" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>d_offset</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a176177eac22d05b46602cfa90e2da5b2" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a3a3207b5fcff32a5ed5626786b2c94ed" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a8f02e73712c15a528bde39ab8c688844" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>jexp_i</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3_1ac7c2ea9dd0d221d07b6b60e7caeab63f" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1aff4458c97154e74d1ad64f553fdbec4e" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>MFSK_demod3_impl</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a4d309e3ffc892e9518d704f8695eba89" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>nck</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1afa019e8b5201e5baf010af0abac222f5" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>samp_sym</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3_1a50377a5390b02edc579e5d91f37fa276" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a9520793ff8201d113ee76b3d44473b47" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>squared_sum</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1a01633c69795b077ee235b7410606a309" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>sum</name></member>
+      <member refid="classgr_1_1MFSK__demod_1_1MFSK__demod3__impl_1aad0bccc50d15c2004b2bcbb86a76b620" prot="public" virt="non-virtual"><scope>gr::MFSK_demod::MFSK_demod3_impl</scope><name>~MFSK_demod3_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
